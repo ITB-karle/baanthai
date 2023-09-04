@@ -31,7 +31,7 @@
               <nuxt-link class="nav-link" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
             </li>
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/" exact-active-class="active">Mulah Point</nuxt-link>
+              <nuxt-link class="nav-link" to="/points" exact-active-class="active">Mulah Point</nuxt-link>
             </li>
             <li class="mb-3">
               <nuxt-link class="nav-link" to="/vipreserve" exact-active-class="active">VIP Reserve</nuxt-link>

@@ -4,7 +4,7 @@ const swiper = useSwiper();
 const props = defineProps({
   style: Number,
 });
-console.log(props);
+
 </script>
 
 <template>

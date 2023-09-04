@@ -72,7 +72,7 @@ body, html {
 }
 
 
-.bg-ourfoods {
+/* .bg-ourfoods {
   background-image: url("../assets/images/OurFoods.webp");
   background-color: #000000;
   height: 100%;
@@ -81,7 +81,7 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+} */
 
 .of-card {
   position: absolute;
@@ -234,6 +234,7 @@ body, html {
   width: 100%;
   height: 100%; */
   object-fit: cover;
+  margin-top: -1px;
 }
 
 .swiper {
@@ -329,4 +330,25 @@ body, html {
 .active-map {
   background-color: #402415;
   color: #BC945F;
+}
+
+#app .mulah-home, #mulah-app .mulah-home {
+  justify-content: center;
+}
+
+.bg-ourfoods {
+  background-image: url("../assets/images/foods/table.webp");
+  /* background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: overlay; */
+  height: auto;
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.btn-gallery .active{
+  background-color: #402415;
+  color: white;
 }

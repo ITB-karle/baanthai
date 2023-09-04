@@ -26,7 +26,7 @@
               <nuxt-link class="nav-link text-lightgold" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link class="nav-link text-lightgold" to="/" exact-active-class="active">Mulah Point</nuxt-link>
+              <nuxt-link class="nav-link text-lightgold" to="/points" exact-active-class="active">Mulah Point</nuxt-link>
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
