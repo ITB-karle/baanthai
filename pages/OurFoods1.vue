@@ -5,7 +5,7 @@
   <div class="uppercase of-card">
     <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
       <li class="mb-5">Thai Omellete</li>
-      <li class="mb-5">Papaya Salad with<br>Salted Crab</li>
+      <li class="mb-5">Papaya Salad with Salted Crab</li>
       <li class="mb-5">Pad Thai</li>
       <li class="mb-5">Stir Fried Thai Basil</li>
     </ul>
