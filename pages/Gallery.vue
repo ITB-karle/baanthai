@@ -3,7 +3,7 @@
     <div class="container mx-auto lg:text-center">
       <section class="font-medium btn-gallery mt-20 mb-8 mx-5">
         <button :class="{'active': type === 'all'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('all')">ALL</button>
-        <button :class="{'active': type === ''}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('')">Best Seller</button>
+        <button :class="{'active': type === ''}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('bs')">Best Seller</button>
         <button :class="{'active': type === 'sd'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('sd')">Signature Dish</button>
         <button :class="{'active': type === 'rice'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('rice')">Rices</button>
         <button :class="{'active': type === 'thainoodle'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('thainoodle')">Thai Noodles</button>
@@ -38,6 +38,21 @@
 
 <script>
   import VueMasonryWall from "vue-masonry-wall";
+
+  import pic1 from "../assets/images/Pic1.webp";
+  import pic2 from "../assets/images/Pic2.webp";
+  import pic3 from "../assets/images/Pic3.webp";
+  import pic4 from "../assets/images/Pic4.webp";
+  import pic5 from "../assets/images/Pic5.webp";
+  import pic6 from "../assets/images/Pic6.webp";
+  import pic7 from "../assets/images/Pic7.webp";
+  import pic8 from "../assets/images/Pic8.webp";
+  import pic9 from "../assets/images/Pic9.webp";
+  import pic10 from "../assets/images/Pic10.webp";
+  import pic11 from "../assets/images/Pic11.webp";
+  import pic12 from "../assets/images/Pic12.webp";
+  import pic13 from "../assets/images/Pic13.webp";
+  import pic14 from "../assets/images/Pic14.webp";
 
   import sdFood from "../assets/images/foods/signatureDish/signature.webp";
   import sdFood2 from "../assets/images/foods/signatureDish/signature2.webp";
@@ -84,8 +99,20 @@
     data() {
       return {
         items: [
-          // {title: 'Item 0', content: 'Content'},
-          // {title: 'Item 1', content: 'Content'},
+          {image: pic1, type: 'bs'},
+          {image: pic2, type: 'bs'},
+          {image: pic3, type: 'bs'},
+          {image: pic4, type: 'bs'},
+          {image: pic6, type: 'bs'},
+          {image: pic5, type: 'bs'},
+          {image: pic8, type: 'bs'},
+          {image: pic7, type: 'bs'},
+          {image: pic9, type: 'bs'},
+          {image: pic10, type: 'bs'},
+          {image: pic11, type: 'bs'},
+          {image: pic12, type: 'bs'},
+          {image: pic13, type: 'bs'},
+          {image: pic14, type: 'bs'},
           {image: sdFood, type: 'sd'},
           {image: sdFood2, type: 'sd'},
           {image: sdFood3, type: 'sd'},
