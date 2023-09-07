@@ -153,22 +153,22 @@ export default {
       </div>
 
       <!-- List of food items section -->
-      <section>
-        <div class="uppercase of-card">
-          <ul style="list-style-type: disc;" class="px-8 pb-5 font-medium text-2xl">
-            <li
-              class="mb-5"
-              v-for="(food, index) in foodItems"
-              :key="index"
-              :class="{ 'text-lightgold': hoveredItem === index }"
-              @mouseover="hoveredItem = index"
-              @mouseout="hoveredItem = -1"
-            >
-              {{ food.name }}
-            </li>
-          </ul>
-          <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-        </div>
+      <section class="uppercase of-card">
+        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
+          <li
+            class="mb-2 lg:mb-5"
+            v-for="(food, index) in foodItems"
+            :key="index"
+            :class="{ 'text-lightgold': hoveredItem === index }"
+            @mouseover="hoveredItem = index"
+            @mouseout="hoveredItem = -1"
+          >
+            {{ food.name }}
+          </li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+        </a>
       </section>
     </div>
     
@@ -182,22 +182,22 @@ export default {
       </div>
 
       <!-- List of food items section -->
-      <section>
-        <div class="uppercase of-card">
-          <ul style="list-style-type: disc;" class="px-8 pb-5 font-medium text-2xl">
-            <li
-              class="mb-5"
-              v-for="(food, index) in foodItems2"
-              :key="index"
-              :class="{ 'text-lightgold': hoveredItem2 === index }"
-              @mouseover="hoveredItem2 = index"
-              @mouseout="hoveredItem2 = -1"
-            >
-              {{ food.name }}
-            </li>
-          </ul>
-          <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-        </div>
+      <section class="uppercase of-card">
+        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
+          <li
+            class="mb-2 lg:mb-5"
+            v-for="(food, index) in foodItems2"
+            :key="index"
+            :class="{ 'text-lightgold': hoveredItem2 === index }"
+            @mouseover="hoveredItem2 = index"
+            @mouseout="hoveredItem2 = -1"
+          >
+            {{ food.name }}
+          </li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+        </a>
       </section>
     </div>
 
@@ -210,23 +210,24 @@ export default {
       </div>
 
       <!-- List of food items section -->
-      <section>
-        <div class="uppercase of-card">
-          <ul style="list-style-type: disc;" class="px-8 pb-5 font-medium text-2xl">
-            <li
-              class="mb-5"
-              v-for="(food, index) in foodItems3"
-              :key="index"
-              :class="{ 'text-lightgold': hoveredItem3 === index }"
-              @mouseover="hoveredItem3 = index"
-              @mouseout="hoveredItem3 = -1"
-            >
-              {{ food.name }}
-            </li>
-          </ul>
-          <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-        </div>
+      <section class="uppercase of-card">
+        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
+          <li
+            class="mb-2 lg:mb-5"
+            v-for="(food, index) in foodItems3"
+            :key="index"
+            :class="{ 'text-lightgold': hoveredItem3 === index }"
+            @mouseover="hoveredItem3 = index"
+            @mouseout="hoveredItem3 = -1"
+          >
+            {{ food.name }}
+          </li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+        </a>
       </section>
+
     </div>
 
     <div class="relative">
@@ -238,22 +239,22 @@ export default {
       </div>
 
       <!-- List of food items section -->
-      <section>
-        <div class="uppercase of-card">
-          <ul style="list-style-type: disc;" class="px-8 pb-5 font-medium text-2xl">
-            <li
-              class="mb-5"
-              v-for="(food, index) in foodItems4"
-              :key="index"
-              :class="{ 'text-lightgold': hoveredItem4 === index }"
-              @mouseover="hoveredItem4 = index"
-              @mouseout="hoveredItem4 = -1"
-            >
-              {{ food.name }}
-            </li>
-          </ul>
-          <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-        </div>
+      <section class="uppercase of-card">
+        <ul style="list-style-type: disc;" class="px-5 xl:px-8 xl:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
+          <li
+            class="mb-2 lg:mb-5"
+            v-for="(food, index) in foodItems4"
+            :key="index"
+            :class="{ 'text-lightgold': hoveredItem4 === index }"
+            @mouseover="hoveredItem4 = index"
+            @mouseout="hoveredItem4 = -1"
+          >
+            {{ food.name }}
+          </li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+        </a>
       </section>
     </div>
 
@@ -266,22 +267,22 @@ export default {
       </div>
 
       <!-- List of food items section -->
-      <section>
-        <div class="uppercase of-card">
-          <ul style="list-style-type: disc;" class="px-8 pb-5 font-medium text-2xl">
-            <li
-              class="mb-5"
-              v-for="(food, index) in foodItems5"
-              :key="index"
-              :class="{ 'text-lightgold': hoveredItem5 === index }"
-              @mouseover="hoveredItem5 = index"
-              @mouseout="hoveredItem5 = -1"
-            >
-              {{ food.name }}
-            </li>
-          </ul>
-          <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-        </div>
+      <section class="uppercase of-card">
+        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
+          <li
+            class="mb-2 lg:mb-5"
+            v-for="(food, index) in foodItems5"
+            :key="index"
+            :class="{ 'text-lightgold': hoveredItem5 === index }"
+            @mouseover="hoveredItem5 = index"
+            @mouseout="hoveredItem5 = -1"
+          >
+            {{ food.name }}
+          </li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+        </a>
       </section>
     </div>
     

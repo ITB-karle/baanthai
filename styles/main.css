@@ -85,16 +85,16 @@ body, html {
 
 .of-card {
   position: absolute;
-  top: 750px;
+  top: 45%;
   left: 50%;
-  transform: translate(-50%, 0);
+  max-width: 500px;
+  transform: translate(-50%, -45%);
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
-  /* padding: 25px 35px; */
   padding: 50px;
 }
 
-.of-card-1 {
+/* .of-card-1 {
   position: absolute;
   top: 2000px;
   left: 50%;
@@ -132,6 +132,16 @@ body, html {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   padding: 25px;
+} */
+
+
+.of-card li {
+  transition: ease all .3s;
+}
+
+.of-card li:hover {
+  cursor: pointer;
+  color: #BC945F;
 }
 
 ::marker {
@@ -353,6 +363,37 @@ body, html {
   margin: -150px 0;
 }
 
+
+@media only screen and (max-width: 1440px) {
+  .bg-ourfoods  > div > div{
+    margin: 0;
+  }
+  .of-card {
+    padding: 35px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .of-card {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .of-card {
+    /* top: 28%; */
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .of-card {
+    /* top: 18%; */
+    padding: 8px;
+  }
+}
+
 .bg-ourfoods > div > div:first-child {
   margin-top: 0;
 }
@@ -377,7 +418,7 @@ body, html {
   right: -15%;
 } */
 
-.bg-ourfoods > div > div img{
+.bg-ourfoods > div > div img {
   margin: 0 auto;
   width: 100%;
   max-width: 800px;
@@ -394,11 +435,11 @@ body, html {
   filter: grayscale(0) brightness(1.1) !important;
 }
 
-.of-card li {
-  transition: ease all .3s;
+
+.text-xxs {
+  font-size: 1rem;
 }
 
-.of-card li:hover {
-  cursor: pointer;
-  color: #BC945F;
-}
+div.eapps-widget {
+  overflow: hidden;
+} 

@@ -35,7 +35,11 @@
               </div>
             </div>
             <div class="text-center">
-              <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">Book Now</button>
+              <a href="https://www.tableapp.com/partner/baan-thai-2-seafood-thai-cuisine-vip-room-type-1-jalan-kuchai-lama#/" target="_blank">
+                <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">
+                  Book Now
+                </button>
+              </a>
             </div>
           </div>
 
@@ -57,7 +61,11 @@
               </div>
             </div>
             <div class="text-center">
-              <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">Book Now</button>
+              <a href="https://www.tableapp.com/partner/baan-thai-2-seafood-thai-cuisine-vip-room-type-2-jalan-kuchai-lama#/" target="_blank">
+                <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">
+                  Book Now
+                </button>
+              </a>
             </div>
           </div>
 
@@ -79,7 +87,11 @@
               </div>
             </div>
             <div class="text-center">
-              <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">Book Now</button>
+              <a href="https://www.tableapp.com/partner/baan-thai-2-seafood-thai-cuisine-vip-room-type-3-jalan-kuchai-lama#/" target="_blank">
+                <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">
+                  Book Now
+                </button>
+              </a>
             </div>
           </div>
 
@@ -102,7 +114,11 @@
               </div>
             </div>
             <div class="text-center">
-              <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">Book Now</button>
+              <a href="https://www.tableapp.com/partner/baan-thai-2-seafood-thai-cuisine-vip-room-type-4-jalan-kuchai-lama#/" target="_blank">
+                <button class="bg-brown rounded-full text-lg text-white my-10 py-2 px-28">
+                  Book Now
+                </button>
+              </a>
             </div>
           </div>
         </section>

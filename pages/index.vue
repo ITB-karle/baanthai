@@ -19,22 +19,34 @@
         <swiper-slide>
           <img src="../assets/images/Baanthai_home.webp" alt="" class="w-full">
           <div class="swiper-button text-xs md:text-xl lg:text-4xl font-medium text-white text-center mx-auto">
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            <a href="https://weborder.zeoniq.com/one/init-b">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
+            </a>
+            <a href="https://www.tableapp.com/baan-thai-2-seafood-thai-cuisine?utm_source=Official+Website&utm_campaign=Tableapp&utm_medium=Tableapp">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            </a>
           </div>
         </swiper-slide>
         <swiper-slide>
           <img src="../assets/images/Slider2.webp" alt="" class="w-full">
           <div class="swiper-button text-xs md:text-xl lg:text-4xl font-medium text-white text-center mx-auto">
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            <a href="https://weborder.zeoniq.com/one/init-b">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
+            </a>
+            <a href="https://www.tableapp.com/baan-thai-2-seafood-thai-cuisine?utm_source=Official+Website&utm_campaign=Tableapp&utm_medium=Tableapp">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            </a>
           </div>
         </swiper-slide>
         <swiper-slide>
           <img src="../assets/images/Slider3.webp" alt="" class="w-full">
           <div class="swiper-button text-xs md:text-xl lg:text-4xl font-medium text-white text-center mx-auto">
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
-            <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            <a href="https://weborder.zeoniq.com/one/init-b">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">Order Now</button>
+            </a>
+            <a href="https://www.tableapp.com/baan-thai-2-seafood-thai-cuisine?utm_source=Official+Website&utm_campaign=Tableapp&utm_medium=Tableapp">
+              <button class="block bg-lightgold py-1 lg:py-3 px-3 lg:px-8 rounded-full mb-2 lg:mb-8">VIP Reservation</button>
+            </a>
           </div>
         </swiper-slide>
       </swiper>
@@ -211,14 +223,10 @@
     </section>
 
     <section class="bg-marblr py-16 md::pt-36 md:pb-24 px-3 lg:px-0">
-      <h1 class="container uppercase text-2xl lg:text-5xl text-brown font-bold text-right border-r-8 border-lightgold py-1 lg:py-3 px-7">What Customers <br> Think About Us</h1>
-      <!-- <div class="grid grid-cols-5 container mx-auto">
-        <img src="../assets/images/gallery.webp" alt="" class="px-5">
-        <img src="../assets/images/gallery2.webp" alt="" class="px-5">
-        <img src="../assets/images/gallery3.webp" alt="" class="px-5">
-        <img src="../assets/images/gallery4.webp" alt="" class="px-5">
-        <img src="../assets/images/gallery5.webp" alt="" class="px-5">
-      </div> -->
+      <div class="container mx-auto">
+        <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold text-right border-r-8 border-lightgold py-1 lg:py-3 px-7">What Customers <br> Think About Us</h1>
+        <iframe src="https://widget-36e5bf48b8e7465ab734eda0096ff837.elfsig.ht" frameborder="0" width="100%" class="h-[500px] mt-12 lg:mt-16 overflow-hidden" ></iframe>
+      </div>
     </section>
   </div>
 </template>

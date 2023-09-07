@@ -7,12 +7,19 @@
             <img src="../assets/images/Baan_Thai_Logo.webp" alt="" class="max-w-[250px] w-full lg:w-auto mx-auto mb-3" />
           </nuxt-link>
           <div>
-            <button class="bg-darkgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">ONLINE ORDER</button>
+            <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+              <button class="bg-darkgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
+                ONLINE ORDER
+              </button>
+            </a>
+            
           </div>
           <div>
-            <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
-              <nuxt-link to="/vipreserve">VIP RESERVE</nuxt-link>
-            </button>
+            <nuxt-link to="/vipreserve">
+              <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
+                VIP RESERVE
+              </button>
+            </nuxt-link>
           </div>
         </div>
         <div class="my-12 md:my-0">
@@ -58,10 +65,10 @@
               <p class="text-yellow font-medium">BaanThai @ Publika</p>
               <div>5pm - 4am Everyday</div>
               <div>Pending</div>
-              <div class="flex mt-2 mb-5">
+              <!-- <div class="flex mt-2 mb-5">
                 <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
                 <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
-              </div>
+              </div> -->
             </div>
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">BaanThai 2 Kuchai Lama</p>
@@ -71,7 +78,9 @@
                 <a href="https://www.facebook.com/Baan-Thai-2-Seafood-Thai-Cuisine-1895328650689639/" target="_blank">
                   <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
                 </a>
-                <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
+                <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
+                  <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
+                </a>
               </div>
             </div>
           </div>
@@ -83,7 +92,7 @@
       <div class="lg:mx-52 text-xs md:text-sm lg:text-base text-center">
         <ul class="font-thin mt-4 rounded-lg md:mt-0 flex justify-center">
           <li class="border-r md:px-16">
-            <nuxt-link class="nav-link" to="/" exact-active-class="active">Online Order</nuxt-link>
+            <nuxt-link class="nav-link" to="https://weborder.zeoniq.com/one/init-b" exact-active-class="active" target="_blank">Online Order</nuxt-link>
           </li>
           <li class="border-r md:px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Online Reservation</nuxt-link>

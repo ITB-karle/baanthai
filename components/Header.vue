@@ -30,8 +30,12 @@
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
-            <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2 my-3 lg:my-0"><nuxt-link to="/vipreserve">VIP RESERVATION</nuxt-link></button>
-            <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2">ONLINE ORDER</button>
+            <nuxt-link to="/vipreserve">
+              <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
+            </nuxt-link>
+            <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+              <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2">ONLINE ORDER</button>
+            </a>
           </div>
         </div>
 
