@@ -91,16 +91,16 @@
     <section class="container mx-auto my-8">
       <div class="lg:mx-52 text-xs md:text-sm lg:text-base text-center">
         <ul class="font-thin mt-4 rounded-lg md:mt-0 flex justify-center">
-          <li class="border-r md:px-16">
+          <li class="border-r px-2 md:px-16">
             <nuxt-link class="nav-link" to="https://weborder.zeoniq.com/one/init-b" exact-active-class="active" target="_blank">Online Order</nuxt-link>
           </li>
-          <li class="border-r md:px-16">
+          <li class="border-r px-2 md:px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Online Reservation</nuxt-link>
           </li>
-          <li class="border-r md:px-16">
+          <li class="border-r px-2 md:px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Terms & Conditions</nuxt-link>
           </li>
-          <li class="md:px-16">
+          <li class="md: px-2 px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Delivery Policy</nuxt-link>
           </li>
         </ul>

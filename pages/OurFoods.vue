@@ -167,7 +167,7 @@ export default {
           </li>
         </ul>
         <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
         </a>
       </section>
     </div>
@@ -196,7 +196,7 @@ export default {
           </li>
         </ul>
         <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
         </a>
       </section>
     </div>
@@ -224,7 +224,7 @@ export default {
           </li>
         </ul>
         <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
         </a>
       </section>
 
@@ -253,7 +253,7 @@ export default {
           </li>
         </ul>
         <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
         </a>
       </section>
     </div>
@@ -281,7 +281,7 @@ export default {
           </li>
         </ul>
         <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-1">Online Order</button>
+          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
         </a>
       </section>
     </div>

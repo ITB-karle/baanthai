@@ -1,9 +1,9 @@
 <template>
   <div class="bg-white">
     <div class="container mx-auto lg:text-center">
-      <section class="font-medium btn-gallery mt-20 mb-8 mx-5">
+      <section class="font-medium btn-gallery mt-12 lg:mt-20 mb-5 lg:mb-8 mx-5">
         <button :class="{'active': type === 'all'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('all')">ALL</button>
-        <button :class="{'active': type === ''}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('bs')">Best Seller</button>
+        <button :class="{'active': type === 'bs'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('bs')">Best Seller</button>
         <button :class="{'active': type === 'sd'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('sd')">Signature Dish</button>
         <button :class="{'active': type === 'rice'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('rice')">Rices</button>
         <button :class="{'active': type === 'thainoodle'}" class="rounded-full bg-gray px-4 py-1 mx-2 mb-3" @click="changeType('thainoodle')">Thai Noodles</button>
@@ -23,10 +23,10 @@
           </svg>
           <span class="sr-only">Loading...</span>
         </div> -->
-        <vue-masonry-wall :key="type" class="mx-10" :items="filteredItems" :options="{ padding: 12 }">
+        <vue-masonry-wall :key="type" class="mx-4 lg:mx-10" :items="filteredItems" :options="{ padding: 12 }">
           <template v-slot:default="{item}">
             <div>
-              <img :src="item.image" alt="">
+              <img :src="item.image" alt="" class="rounded-lg">
             </div>
           </template>
         </vue-masonry-wall>

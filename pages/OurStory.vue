@@ -2,8 +2,8 @@
   <img src="../assets/images/os-main.webp" alt="" class="min-h-[150px] md:min-h-[250px] object-cover">
   <section class="bg-marblr py-14 lg:flex lg:items-center">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0">
-      <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0">
-      <div class="mx-5 md:mx-16 xl:mx-24">
+      <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
+      <div class="mx-5 md:mx-16 xl:mx-24 px-5">
         <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7">BAAN THAI</h1>
         <p class="text-sm md:text-base font-medium">
           Baan Thai means Thai home or Thai house in English. It symbolizes the
@@ -30,7 +30,7 @@
   <section class="bg-marblr bg-center py-14 lg:flex lg:items-center">
     <div class="container mx-auto lg:grid lg:grid-cols-2 flex-col-reverse lg:flex-row lg:justify-center lg:items-center lg:px-12 xl:px-0">
       <div class="mx-10 md:px-16 lg:px-0">
-        <h1 class="text-xl lg:text-5xl text-brown font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-l-8 lg:border-l-10 border-lightgold">
+        <h1 class="text-xl lg:text-5xl text-brown font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-l-8 lg:border-l-10 border-lightgold uppercase">
           Our<br class="hidden lg:block"> Mission
         </h1>
         <p class="text-sm md:text-base font-medium">
@@ -41,15 +41,15 @@
           up an exotic choice of real Thai cookery ever since.
         </p>
       </div>
-      <img src="../assets/images/os-mission.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-5 lg:mb-0">
+      <img src="../assets/images/os-mission.webp" alt="" class="px-5 md:px-16 lg:px-0 mt-7 lg:mt-0 mb-5 lg:mb-0">
     </div>
   </section>
 
   <section class="bg-gray bg-center py-14 lg:flex lg:items-center">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:flex lg:justify-center lg:items-center lg:px-12 xl:px-0">
-      <img src="../assets/images/os-vision.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-5 lg:mb-0">
+      <img src="../assets/images/os-vision.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
       <div class="mx-10 md:px-16 lg:px-0">
-        <h1 class="text-xl lg:text-5xl text-brown text-right font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-r-8 lg:border-r-10 border-lightgold">
+        <h1 class="text-xl lg:text-5xl text-brown text-right font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-r-8 lg:border-r-10 border-lightgold uppercase">
           Our<br class="hidden lg:block"> Vision
         </h1>
         <p class="text-sm md:text-base font-medium text-right">
