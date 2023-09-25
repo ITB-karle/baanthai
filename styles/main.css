@@ -817,3 +817,12 @@ div.eapps-widget {
   }
   
 }
+
+.terms ul {
+  margin: auto;
+  padding-left: 3rem;
+}
+
+.terms ::marker {
+  color: black !important;
+}

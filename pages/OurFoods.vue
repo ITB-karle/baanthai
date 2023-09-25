@@ -36,7 +36,7 @@
       >
 
       <div class="uppercase of-card top-[16%] left-[50%] text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
-        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2 md:pb-5 font-medium">
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'to' }" @mouseover="hoveredItem = 'to'" @mouseout="hoveredItem = ''">
             Thai Omellete</li>
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'ps' }" @mouseover="hoveredItem = 'ps'" @mouseout="hoveredItem = ''">
