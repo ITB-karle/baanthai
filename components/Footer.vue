@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-brown text-white grow">
+  <div class="bg-brown text-white grow z-50">
     <section class="container mx-auto">
       <div class="md:grid md:grid-cols-4 mt-16 mb-5 mx-5 md:mx-7 lg:mx-10 border-b border-b-white border-opacity-10">
         <div class="mx-auto text-center text-xs lg:text-base">

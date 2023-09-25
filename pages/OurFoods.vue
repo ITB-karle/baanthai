@@ -1,359 +1,259 @@
-<!-- <template>
-  <div class="bg-ourfoods">
-    <div class="flex flex-wrap justify-between ">
-      <div>
-        <img id="stir-ftb" src="../assets/images/foods/food_2.webp" :class="{ 'grayscale-0': isHoveredCde }">
-      </div>
-      <div>
-        <img id="thai-o" src="../assets/images/foods/Thai-Omellete.webp" :class="{ 'grayscale-0': isHoveredCde1 }">
-      </div>
-    </div>
-    <div class="flex flex-wrap justify-around">
-      <div>
-        <img id="pad-t" src="../assets/images/foods/Pad-Thai.webp" :class="{ 'grayscale-0': isHoveredCde2 }">
-      </div>
-      <div>
-        <img id="papaya-s" src="../assets/images/foods/papaya-salad.webp" :class="{ 'grayscale-0': isHoveredCde3 }">
-      </div>
-    </div>
-    <div class="flex flex-wrap justify-between ">
-      <div><img src="../assets/images/foods/food_5.webp" alt=""></div>
-      <div><img src="../assets/images/foods/food_7.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-around">
-      <div><img src="../assets/images/foods/pandan-chic.webp" alt=""></div>
-      <div><img src="../assets/images/foods/food_8.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-between ">
-      <div><img src="../assets/images/foods/Grilled-Fish-with-Salt.webp" alt=""></div>
-      <div><img src="../assets/images/foods/tomyam.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-around">
-      <div><img src="../assets/images/foods/food-12.webp" alt=""></div>
-      <div><img src="../assets/images/foods/food_13.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-between ">
-      <div><img src="../assets/images/foods/food_14.webp" alt=""></div>
-      <div><img src="../assets/images/foods/bbq.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-around">
-      <div><img src="../assets/images/foods/food_15.webp" alt=""></div>
-      <div><img src="../assets/images/foods/food_16.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-between ">
-      <div><img src="../assets/images/foods/lime-fish.webp" alt=""></div>
-      <div><img src="../assets/images/foods/dessert.webp" alt=""></div>
-    </div>
-    <div class="flex flex-wrap justify-around">
-      <div><img src="../assets/images/foods/food_19.webp" alt=""></div>
-    </div>
-
-    <section>
-      <div class="uppercase of-card">
-        <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
-          <li
-            class="mb-5"
-            @mouseover="addClassToElement('thai-o', 'grayscale-0')"
-            @mouseout="removeClassFromElement('thai-o', 'grayscale-0')"
-          >Thai Omellete</li>
-          <li
-            class="mb-5"
-            @mouseover="addClassToElement('papaya-s', 'grayscale-0')"
-            @mouseout="removeClassFromElement('papaya-s', 'grayscale-0')"
-          >Papaya Salad with Salted Crab</li>
-          <li 
-            class="mb-5"
-            @mouseover="addClassToElement('pad-t', 'grayscale-0')"
-            @mouseout="removeClassFromElement('pad-t', 'grayscale-0')"
-          >Pad Thai</li>
-          <li
-            class="mb-5"
-            @mouseover="addClassToElement('stir-ftb', 'grayscale-0')"
-            @mouseout="removeClassFromElement('stir-ftb', 'grayscale-0')"
-          >Stir Fried Thai Basil</li>
-        </ul>
-        <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-      </div>
-      <div class="uppercase of-card-1">
-        <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
-          <li class="mb-5">Braised Pork Leg</li>
-          <li class="mb-5">Deep Fried Pandan Chicken</li>
-          <li class="mb-5">Pineapple Fried Rice</li>
-        </ul>
-        <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-      </div>
-      
-      <div class="uppercase of-card-2">
-        <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
-          <li class="mb-5">Claypot Glass Noodle<br> with Shrimp</li>
-          <li class="mb-5">V</li>
-          <li class="mb-5">Fried Fish with Three<br> Flavor Sauce</li>
-        </ul>
-        <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-      </div>
-
-      <div class="uppercase of-card-3">
-        <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
-          <li class="mb-5">Banana Flower Prawn</li>
-          <li class="mb-5">Southern Thai <br> Stewed Pork</li>
-          <li class="mb-5">Grilled Pork Neck</li>
-          <li class="mb-5">BBQ Pork Stick</li>
-        </ul>
-        <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-      </div>
-
-      <div class="uppercase of-card-4">
-        <ul style="list-style-type:disc;" class="px-8 pb-5 font-medium text-2xl">
-          <li class="mb-5">Steam Fish with <br> Spicy Lime Sauce</li>
-          <li class="mb-5">Mango Sticky Rice</li>
-          <li class="mb-5">Red Ruby</li>
-        </ul>
-        <button class="w-full bg-lightgold rounded-full uppercase py-1">Online Order</button>
-      </div>
-    </section>
-  </div>
-</template>
-
-<script>
-export default {
-  data() {
-    return {
-      isHoveredCde: false, // Track hover state for the "cde" element
-      isHoveredCde2: false,
-      isHoveredCde3: false,
-      isHoveredCde1: false,
-    };
-  },
-  methods: {
-    addClassToElement(targetId, className) {
-      // Check if the target element exists
-      const targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        targetElement.classList.add(className);
-      }
-    },
-    removeClassFromElement(targetId, className) {
-      // Check if the target element exists
-      const targetElement = document.getElementById(targetId);
-      if (targetElement) {
-        targetElement.classList.remove(className);
-      }
-    },
-  },
-};
-</script> -->
 <template>
   <div class="bg-ourfoods">
-    <div class="relative">
-      <!-- Food images section -->
-      <div class="flex flex-wrap justify-between">
-        <div v-for="(food, index) in foodItems" :key="index">
-          <img :src="food.imageSrc" :class="{ 'grayscale-0': hoveredItem === index }" @mouseover="hoveredItem = index" @mouseout="hoveredItem = -1" alt="">
-        </div>
-      </div>
+    <div class="relative h-4300 container mx-auto">
+      <img
+        src="../assets/images/foods/food_2.webp"
+        alt="Stir Fried Thai Basil"
+        class="absolute top-[-2.5%] left-[30%]"
+        :class="{ 'grayscale-0': hoveredItem === 'sftb' }" 
+        @mouseover="hoveredItem = 'sftb'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img src="../assets/images/foods/green-sauces.webp" alt="Green Sauces" class="w-220 absolute top-[3.5%] left-[62.5%]">
+      <img
+        src="../assets/images/foods/Thai-Omellete.webp"
+        alt="Thai Omellete"
+        class="absolute top-[-2.5%] right-[-10%]"
+        :class="{ 'grayscale-0': hoveredItem === 'to' }" 
+        @mouseover="hoveredItem = 'to'" 
+        @mouseout="hoveredItem = ''"
+        >
+      <img
+        src="../assets/images/foods/Pad-Thai.webp" 
+        alt="Pad Thai" 
+        class="w-700 absolute top-[5%] left-[-5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'pt' }" 
+        @mouseover="hoveredItem = 'pt'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/papaya-salad.webp"
+        alt="Papaya Salad"
+        class="w-650 absolute top-[10%] right-[5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'ps' }" 
+        @mouseover="hoveredItem = 'ps'" 
+        @mouseout="hoveredItem = ''"
+      >
 
-      <!-- List of food items section -->
-      <section class="uppercase of-card">
-        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
-          <li
-            class="mb-2 lg:mb-5"
-            v-for="(food, index) in foodItems"
-            :key="index"
-            :class="{ 'text-lightgold': hoveredItem === index }"
-            @mouseover="hoveredItem = index"
-            @mouseout="hoveredItem = -1"
-          >
-            {{ food.name }}
+      <div class="uppercase of-card top-[16%] left-[50%] text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'to' }" @mouseover="hoveredItem = 'to'" @mouseout="hoveredItem = ''">
+            Thai Omellete</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'ps' }" @mouseover="hoveredItem = 'ps'" @mouseout="hoveredItem = ''">
+            Papaya Salad with Salted Crab</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'pt' }" @mouseover="hoveredItem = 'pt'" @mouseout="hoveredItem = ''">
+            Pad Thai</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'sftb' }" @mouseover="hoveredItem = 'sftb'" @mouseout="hoveredItem = ''">
+            Stir Fried Thai Basil
           </li>
         </ul>
-        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
+        <a href="https://weborder.zeoniq.com/one/init-b">
+          <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a>
-      </section>
+      </div>
+
+      <img
+        src="../assets/images/foods/food_5.webp"
+        alt="Pineapple Fried Rice"
+        class="absolute top-[21%] left-[-10%]"
+        :class="{ 'grayscale-0': hoveredItem === 'pfr' }" 
+        @mouseover="hoveredItem = 'pfr'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/food_7.webp"
+        alt="Southern Thai Stewed Pork Belly"
+        class="absolute top-[20%] left-[25%]"
+        :class="{ 'grayscale-0': hoveredItem === 'stspb' }" 
+        @mouseover="hoveredItem = 'stspb'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/pandan-chic.webp"
+        alt="Deep Fried Pandan Chicken"
+        class="absolute top-[31%] left-[10%]"
+        :class="{ 'grayscale-0': hoveredItem === 'dfpc' }" 
+        @mouseover="hoveredItem = 'dfpc'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/food_8.webp"
+        alt="Braised Pork Leg"
+        class="w-750 absolute top-[22%] right-[-5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'bpl' }" 
+        @mouseover="hoveredItem = 'bpl'" 
+        @mouseout="hoveredItem = ''"
+      >
+
+      <div class="uppercase of-card top-[35%] left-[25%] w-extra text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'pfr' }" @mouseover="hoveredItem = 'pfr'" @mouseout="hoveredItem = ''">
+            Pineapple Fried Rice</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'stspb' }" @mouseover="hoveredItem = 'stspb'" @mouseout="hoveredItem = ''">
+            Southern Thai Stewed Pork Belly</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'dfpc' }" @mouseover="hoveredItem = 'dfpc'" @mouseout="hoveredItem = ''">
+            Deep Fried Pandan Chicken</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'bpl' }" @mouseover="hoveredItem = 'bpl'" @mouseout="hoveredItem = ''">
+            Braised Pork Leg</li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b">
+          <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
+        </a>
+      </div>
+
+      <img
+        src="../assets/images/foods/Grilled-Fish-with-Salt.webp"
+        alt="Grilled Fish with Salt"
+        class="w-750 absolute top-[41%] left-[-20%]"
+        :class="{ 'grayscale-0': hoveredItem === 'gfws' }" 
+        @mouseover="hoveredItem = 'gfws'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/tomyam.webp"
+        alt="Red Tomyam Soup"
+        class="absolute top-[40%] left-[30%]"
+        :class="{ 'grayscale-0': hoveredItem === 'rts' }" 
+        @mouseover="hoveredItem = 'rts'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/food-12.webp"
+        alt="FRIED FISH WITH THREE FLAVOR SAUCE"
+        class="w-1000 absolute top-[40%] right-[-17%]"
+        :class="{ 'grayscale-0': hoveredItem === 'ffwtfs' }" 
+        @mouseover="hoveredItem = 'ffwtfs'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/food_13.webp"
+        alt='Grilled Pork Neck'
+        class="w-650 absolute top-[52%] left-[17.5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'gpn' }" 
+        @mouseover="hoveredItem = 'gpn'" 
+        @mouseout="hoveredItem = ''"
+      >
+      
+      <div class="uppercase of-card top-[50%] right-[0%] text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'gfws' }" @mouseover="hoveredItem = 'gfws'" @mouseout="hoveredItem = ''">
+            Grilled Fish with Salt</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'rts' }" @mouseover="hoveredItem = 'rts'" @mouseout="hoveredItem = ''">
+            Red Tomyam Soup</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'ffwtfs' }" @mouseover="hoveredItem = 'ffwtfs'" @mouseout="hoveredItem = ''">
+            FRIED FISH WITH THREE FLAVOR SAUCE</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'gpn' }" @mouseover="hoveredItem = 'gpn'" @mouseout="hoveredItem = ''">
+            Grilled Pork Neck</li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b">
+          <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
+        </a>
+      </div>
+
+      <img 
+        src="../assets/images/foods/food_14.webp"
+        alt='Claypot Glass Noodle with Shrimp'
+        class="absolute top-[60%] right-[17.5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'cgnws' }" 
+        @mouseover="hoveredItem = 'cgnws'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img 
+        src="../assets/images/foods/bbq.webp"
+        alt='BBQ Pork Stick'
+        class="absolute top-[60%] right-[-15%]"
+        :class="{ 'grayscale-0': hoveredItem === 'bbq' }" 
+        @mouseover="hoveredItem = 'bbq'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img 
+        src="../assets/images/foods/food_15.webp"
+        alt='Deep Fried Calamari with Garlic'
+        class="w-650 absolute top-[62%] left-[-5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'dfcwg' }" 
+        @mouseover="hoveredItem = 'dfcwg'" 
+        @mouseout="hoveredItem = ''"
+      >
+      
+      <div class="uppercase of-card top-[68%] left-[35%] w-extra text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'cgnws' }" @mouseover="hoveredItem = 'cgnws'" @mouseout="hoveredItem = ''">
+            Claypot Glass Noodle with Shrimp</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'bbq' }" @mouseover="hoveredItem = 'bbq'" @mouseout="hoveredItem = ''">
+            BBQ Pork Stick</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'dfcwg' }" @mouseover="hoveredItem = 'dfcwg'" @mouseout="hoveredItem = ''">
+            Deep Fried Calamari with Garlic</li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b">
+          <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
+        </a> 
+      </div>
+
+      <img
+        src="../assets/images/foods/food_16.webp" 
+        alt='Banana Flower Prawn' 
+        class="w-650 absolute top-[72%] left-[28%]"
+        :class="{ 'grayscale-0': hoveredItem === 'bfp' }" 
+        @mouseover="hoveredItem = 'bfp'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/lime-fish.webp" 
+        alt='Steam Fish with Spicy Lime Sauce' 
+        class="w-650 absolute top-[75%] right-[-18%]"
+        :class="{ 'grayscale-0': hoveredItem === 'sfwsls' }" 
+        @mouseover="hoveredItem = 'sfwsls'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/dessert.webp" 
+        alt='Red Ruby' 
+        class="w-400 absolute top-[80%] left-[5%]"
+        :class="{ 'grayscale-0': hoveredItem === 'rr' }" 
+        @mouseover="hoveredItem = 'rr'" 
+        @mouseout="hoveredItem = ''"
+      >
+      <img
+        src="../assets/images/foods/food_19.webp" 
+        alt='Mango Sticky Rice' 
+        class="w-750 absolute bottom-[-4%] left-[30%] z-50"
+        :class="{ 'grayscale-0': hoveredItem === 'msr' }" 
+        @mouseover="hoveredItem = 'msr'" 
+        @mouseout="hoveredItem = ''"
+      >
+
+      <div class="uppercase of-card top-[92%] right-[0%] z-50 text-xxs sm:text-sm md:text-base lg:text-xl xl:text-2xl">
+        <ul style="list-style-type:disc;" class="pl-4 md:pl-8 pb-2  md:pb-5 font-medium">
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'bfp' }" @mouseover="hoveredItem = 'bfp'" @mouseout="hoveredItem = ''">
+            Banana Flower Prawn</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'sfwsls' }" @mouseover="hoveredItem = 'sfwsls'" @mouseout="hoveredItem = ''">
+            Steam Fish with Spicy Lime Sauce</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'rr' }" @mouseover="hoveredItem = 'rr'" @mouseout="hoveredItem = ''">
+            Red Ruby</li>
+          <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'msr' }" @mouseover="hoveredItem = 'msr'" @mouseout="hoveredItem = ''">
+            Mango Sticky Rice</li>
+        </ul>
+        <a href="https://weborder.zeoniq.com/one/init-b">
+          <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
+        </a>
+      </div>
+
+      <img src="../assets/images/foods/pandanleave.webp" alt='Pandan Leave' class="w-825 absolute bottom-[-3%] left-[-4%]">
+      <img src="../assets/images/foods/deco-leaves.webp" alt='Deco Leaves' class="w-650 absolute bottom-[-1%] right-[-12%]">
     </div>
     
-
-    <div class="relative">
-      <!-- Food images section -->
-      <div class="flex flex-wrap justify-between">
-        <div v-for="(food, index) in foodItems2" :key="index">
-          <img :src="food.imageSrc" :class="{ 'grayscale-0': hoveredItem2 === index }" @mouseover="hoveredItem2 = index" @mouseout="hoveredItem2 = -1" alt="">
-        </div>
-      </div>
-
-      <!-- List of food items section -->
-      <section class="uppercase of-card">
-        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
-          <li
-            class="mb-2 lg:mb-5"
-            v-for="(food, index) in foodItems2"
-            :key="index"
-            :class="{ 'text-lightgold': hoveredItem2 === index }"
-            @mouseover="hoveredItem2 = index"
-            @mouseout="hoveredItem2 = -1"
-          >
-            {{ food.name }}
-          </li>
-        </ul>
-        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
-        </a>
-      </section>
-    </div>
-
-    <div class="relative">
-      <!-- Food images section -->
-      <div class="flex flex-wrap justify-between">
-        <div v-for="(food, index) in foodItems3" :key="index">
-          <img :src="food.imageSrc" :class="{ 'grayscale-0': hoveredItem3 === index }" @mouseover="hoveredItem3 = index" @mouseout="hoveredItem3 = -1" alt="">
-        </div>
-      </div>
-
-      <!-- List of food items section -->
-      <section class="uppercase of-card">
-        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
-          <li
-            class="mb-2 lg:mb-5"
-            v-for="(food, index) in foodItems3"
-            :key="index"
-            :class="{ 'text-lightgold': hoveredItem3 === index }"
-            @mouseover="hoveredItem3 = index"
-            @mouseout="hoveredItem3 = -1"
-          >
-            {{ food.name }}
-          </li>
-        </ul>
-        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
-        </a>
-      </section>
-
-    </div>
-
-    <div class="relative">
-      <!-- Food images section -->
-      <div class="flex flex-wrap justify-between">
-        <div v-for="(food, index) in foodItems4" :key="index">
-          <img :src="food.imageSrc" :class="{ 'grayscale-0': hoveredItem4 === index }" @mouseover="hoveredItem4 = index" @mouseout="hoveredItem4 = -1" alt="">
-        </div>
-      </div>
-
-      <!-- List of food items section -->
-      <section class="uppercase of-card">
-        <ul style="list-style-type: disc;" class="px-5 xl:px-8 xl:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
-          <li
-            class="mb-2 lg:mb-5"
-            v-for="(food, index) in foodItems4"
-            :key="index"
-            :class="{ 'text-lightgold': hoveredItem4 === index }"
-            @mouseover="hoveredItem4 = index"
-            @mouseout="hoveredItem4 = -1"
-          >
-            {{ food.name }}
-          </li>
-        </ul>
-        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
-        </a>
-      </section>
-    </div>
-
-    <div class="relative">
-      <!-- Food images section -->
-      <div class="flex flex-wrap justify-between">
-        <div v-for="(food, index) in foodItems5" :key="index">
-          <img :src="food.imageSrc" :class="{ 'grayscale-0': hoveredItem5 === index }" @mouseover="hoveredItem5 = index" @mouseout="hoveredItem5 = -1" alt="">
-        </div>
-      </div>
-
-      <!-- List of food items section -->
-      <section class="uppercase of-card">
-        <ul style="list-style-type: disc;" class="px-5 lg:px-8 lg:pb-5 font-medium text-xs md:text-lg xl:text-2xl">
-          <li
-            class="mb-2 lg:mb-5"
-            v-for="(food, index) in foodItems5"
-            :key="index"
-            :class="{ 'text-lightgold': hoveredItem5 === index }"
-            @mouseover="hoveredItem5 = index"
-            @mouseout="hoveredItem5 = -1"
-          >
-            {{ food.name }}
-          </li>
-        </ul>
-        <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-          <button class="w-full text-xs md:text-sm xl:text-base bg-lightgold rounded-full uppercase py-2">Online Order</button>
-        </a>
-      </section>
-    </div>
     
   </div>
 </template>
 
 <script>
-// foodItems
-import thai_o from "../assets/images/foods/Thai-Omellete.webp";
-import papaya_swsc from "../assets/images/foods/papaya-salad.webp";
-import pad_t from "../assets/images/foods/Pad-Thai.webp";
-import stir_ftb from "../assets/images/foods/food_2.webp";
-// foodItems2
-import pineapple_fr from "../assets/images/foods/food_5.webp";
-import southern_tspb from "../assets/images/foods/food_7.webp";
-import pandan_chi from "../assets/images/foods/pandan-chic.webp";
-import braised_pl from "../assets/images/foods/food_8.webp";
-// foodItem3
-import grilled_fws from "../assets/images/foods/Grilled-Fish-with-Salt.webp";
-import tomyam from "../assets/images/foods/tomyam.webp";
-import fish_tfs from "../assets/images/foods/food-12.webp";
-import pork_neck from "../assets/images/foods/food_13.webp";
-// foodItem4
-import claypot_cnws from "../assets/images/foods/food_14.webp";
-import bbq_ps from "../assets/images/foods/bbq.webp";
-import deep_fcwg from "../assets/images/foods/food_15.webp";
-import banana_fp from "../assets/images/foods/food_16.webp";
-// foodItem5
-import steam_fish_wsls from "../assets/images/foods/lime-fish.webp";
-import red_ruby from "../assets/images/foods/dessert.webp";
-import mango_sr from "../assets/images/foods/food_19.webp";
+
 
 export default {
   data() {
     return {
-      hoveredItem: -1,
-      hoveredItem2: -1,
-      hoveredItem3: -1,
-      hoveredItem4: -1,
-      hoveredItem5: -1, // Track the index of the hovered item
-      foodItems: [
-        { name: 'Thai Omellete', imageSrc: thai_o },
-        { name: 'Papaya Salad with Salted Crab', imageSrc: papaya_swsc },
-        { name: 'Pad Thai', imageSrc: pad_t },
-        { name: 'Stir Fried Thai Basil', imageSrc: stir_ftb },
-        // Add more food items here
-      ],
-      foodItems2: [
-        { name: 'Pineapple Fried Rice', imageSrc: pineapple_fr },
-        { name: 'Southern Thai Stewed Pork Belly', imageSrc: southern_tspb },
-        { name: 'Deep Fried Pandan Chicken', imageSrc: pandan_chi },
-        { name: 'Braised Pork Leg', imageSrc: braised_pl },
-      ],
-      foodItems3: [
-        { name: 'Grilled Fish with Salt', imageSrc: grilled_fws },
-        { name: 'Red Tomyam Soup', imageSrc: tomyam },
-        { name: 'FRIED FISH WITH THREE FLAVOR SAUCE', imageSrc: fish_tfs },
-        { name: 'Grilled Pork Neck', imageSrc: pork_neck },
-      ],
-      foodItems4: [
-        { name: 'Claypot Glass Noodle with Shrimp', imageSrc: claypot_cnws },
-        { name: 'BBQ Pork Stick', imageSrc: bbq_ps },
-        { name: 'Deep Fried Calamari with Garlic', imageSrc: deep_fcwg },
-        { name: 'Banana Flower Prawn', imageSrc: banana_fp },
-      ],
-      foodItems5: [
-        { name: 'Steam Fish with Spicy Lime Sauce', imageSrc: steam_fish_wsls },
-        { name: 'Red Ruby', imageSrc: red_ruby },
-        { name: 'Mango Sticky Rice', imageSrc: mango_sr },
-      ],
-    };
+      hoveredItem: '',
+    }
   },
 };
 </script>

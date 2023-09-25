@@ -83,16 +83,6 @@ body, html {
   position: relative;
 } */
 
-.of-card {
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  max-width: 500px;
-  transform: translate(-50%, -45%);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 50px;
-}
 
 /* .of-card-1 {
   position: absolute;
@@ -353,21 +343,7 @@ body, html {
   justify-content: center;
 }
 
-.bg-ourfoods {
-  background-image: url("../assets/images/foods/table.webp");
-  /* background-color: rgba(255, 255, 255, 0);
-  background-blend-mode: overlay; */
-  height: auto;
-  background-position: center;
-  background-repeat: repeat;
-  background-size: 100%;
-  position: relative;
-  /* overflow: hidden; */
-}
 
-.bg-ourfoods  > div > div{
-  margin: -150px 0;
-}
 
 
 @media only screen and (max-width: 1440px) {
@@ -448,6 +424,7 @@ body, html {
 
 .grayscale-0 {
   filter: grayscale(0) brightness(1.1) !important;
+  transform: scale(1.03);
 }
 
 div.eapps-widget {
@@ -459,9 +436,6 @@ div.eapps-widget {
   font-size: 1rem;
 }
 
-div.eapps-widget {
-  overflow: hidden;
-}
 
 /* header */
 .menu-bar button:hover {
@@ -478,4 +452,368 @@ div.eapps-widget {
 
 .container {
   max-width: 1450px;
+}
+
+.bg-ourfoods {
+  background-image: url("../assets/images/foods/table.webp");
+  /* background-color: rgba(255, 255, 255, 0);
+  background-blend-mode: overlay; */
+  height: auto;
+  min-height: 500px;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: 100%;
+  position: relative;
+  /* overflow: hidden; */
+
+  img {
+    width: 500px;
+    transition: ease all .3s;
+  }
+
+  .h-4300 {
+    height: 3550px;
+  }
+}
+
+.bg-ourfoods  > div > div{
+  margin: -150px 0;
+}
+
+.of-card {
+  position: absolute;
+  max-width: 400px;
+  transform: translate(-50%, -45%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 30px;
+  z-index: 49;
+}
+
+@media screen and (min-width: 320px) and (max-width: 499px) {
+
+  .bg-ourfoods {
+    .container {
+      max-width: 320px !important;
+    }
+    .h-4300 {
+      height: 1000px;
+    }
+
+    img {
+      width: 125px;
+    }
+
+    .w-1000 {
+      width: 200px;
+    }
+
+    .w-825 {
+      width: 185px;
+    }
+
+    .w-750 {
+      width: 175px;
+    }
+
+    .w-700 {
+      width: 150px;
+    }
+
+    .w-650 {
+      width: 135px;
+    }
+
+    .w-400 {
+      width: 85px;
+    }
+
+    .w-220 {
+      width: 50px;
+    }
+
+    .of-card {
+      max-width: 150px;
+      padding: 5px;
+    }
+
+    .w-extra {
+      max-width: 175px;
+    }
+
+    .text-xxs {
+      font-size: 9px;
+    }
+  }
+
+  .bg-ourfoods > div > div {
+    margin-top: -50px;
+  }
+
+  .of-card {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+} 
+
+
+@media screen and (min-width: 500px) and (max-width: 749px) {
+
+  .bg-ourfoods {
+    .container {
+      max-width: 500px !important;
+    }
+    .h-4300 {
+      height: 1800px;
+    }
+
+    img {
+      width: 200px;
+    }
+
+    .w-1000 {
+      width: 350px;
+    }
+
+    .w-825 {
+      width: 325px;
+    }
+
+    .w-750 {
+      width: 275px;
+    }
+
+    .w-700 {
+      width: 250px;
+    }
+
+    .w-650 {
+      width: 225px;
+    }
+
+    .w-400 {
+      width: 150px;
+    }
+
+    .w-220 {
+      width: 75px;
+    }
+
+    .of-card {
+      max-width: 225px;
+      padding: 15px;
+    }
+
+    .w-extra {
+      max-width: 250px;
+    }
+  }
+} 
+
+
+@media screen and (min-width: 750px) and (max-width: 999px) {
+
+  .bg-ourfoods {
+    .container {
+      max-width: 750px !important;
+    }
+    .h-4300 {
+      height: 2500px;
+    }
+
+    img {
+      width: 300px;
+    }
+
+    .w-1000 {
+      width: 550px;
+    }
+
+    .w-825 {
+      width: 500px;
+    }
+
+    .w-750 {
+      width: 400px;
+    }
+
+    .w-700 {
+      width: 375px;
+    }
+
+    .w-650 {
+      width: 350px;
+    }
+
+    .w-400 {
+      width: 200px;
+    }
+
+    .w-220 {
+      width: 100px;
+    }
+
+    .of-card {
+      max-width: 250px;
+      padding: 20px;
+    }
+
+    .w-extra {
+      max-width: 300px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1000px) and (max-width:1199px) {
+
+  .bg-ourfoods {
+    .container {
+      max-width: 1000px !important;
+    }
+    .h-4300 {
+      height: 3200px;
+    }
+
+    img {
+      width: 400px;
+    }
+
+    .w-1000 {
+      width: 700px;
+    }
+
+    .w-825 {
+      width: 650px;
+    }
+
+    .w-750 {
+      width: 525px;
+    }
+
+    .w-700 {
+      width: 500px;
+    }
+
+    .w-650 {
+      width: 475px;
+    }
+
+    .w-400 {
+      width: 250px;
+    }
+
+    .w-220 {
+      width: 120px;
+    }
+
+    .of-card {
+      max-width: 300px;
+      padding: 20px;
+    }
+
+    .w-extra {
+      max-width: 350px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width:1449px) {
+
+  .bg-ourfoods {
+    .container {
+      max-width: 1200px !important;
+    }
+    .h-4300 {
+      height: 3550px;
+    }
+
+    img {
+      width: 475px;
+    }
+
+    .w-1000 {
+      width: 825px;
+    }
+
+    .w-825 {
+      width: 700px;
+    }
+
+    .w-750 {
+      width: 625px;
+    }
+
+    .w-700 {
+      width: 600px;
+    }
+
+    .w-650 {
+      width: 550px;
+    }
+
+    .w-400 {
+      width: 300px;
+    }
+
+    .w-220 {
+      width: 180px;
+    }
+
+    .of-card {
+      max-width: 350px;
+      padding: 25px;
+    }
+    .w-extra {
+      max-width: 400px;
+    }
+  }
+}
+
+@media screen and (min-width: 1450px) {
+
+  .bg-ourfoods {
+    .h-4300 {
+      height: 4300px;
+    }
+    img {
+      width: 550px;
+    }
+
+    .w-1000 {
+      width: 1000px;
+    }
+
+    .w-825 {
+      width: 825px;
+    }
+
+    .w-750 {
+      width: 750px;
+    }
+
+    .w-700 {
+      width: 700px;
+    }
+
+    .w-650 {
+      width: 650px;
+    }
+
+    .w-400 {
+      width: 400px;
+    }
+
+    .w-220 {
+      width: 220px;
+    }
+
+    .of-card {
+      max-width: 400px;
+      padding: 30px;
+    }
+    .w-extra {
+      max-width: 500px;
+    }
+  }
+  
 }
