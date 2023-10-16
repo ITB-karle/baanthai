@@ -65,7 +65,7 @@
 
   <section class="bg-marblr py-14">
     <div class="container mx-auto lg:px-12">
-      <div class="overflow-hidden pb-5">
+      <div class="pb-5" style="overflow-x: scroll;">
         <div class="flex flex-nowrap overflow-content">
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <img src="../assets/images/bt-story.webp" alt="" class="h-[200px]">

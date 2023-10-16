@@ -166,7 +166,7 @@ body, html {
   width: 100%; /* Occupy full width of the container */
   padding: 10px; /* Add padding to prevent content from sticking to the edges */
   transform: translateX(0);
-  animation: scrollAnimation 25s linear infinite; /* Adjust animation duration as needed */
+  /* animation: scrollAnimation 25s linear infinite; Adjust animation duration as needed */
 }
 
 @keyframes scrollAnimation {
@@ -335,8 +335,8 @@ body, html {
 } */
 
 .active-map {
-  background-color: #402415;
-  color: #BC945F;
+  background-color: #402415 !important;
+  color: #BC945F !important;
 }
 
 #app .mulah-home, #mulah-app .mulah-home {

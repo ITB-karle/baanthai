@@ -49,7 +49,7 @@
           <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">Quick contact</p>
           <div class="grid grid-cols-2">
             <div class="text-xs lg:text-base">
-              <p class="text-yellow font-medium">BaanThai @ Pudu Ulu</p>
+              <p class="text-yellow font-medium">BaanThai@Pudu Ulu</p>
               <div>5pm - 4am Everyday</div>
               <div>018-9116315</div>
               <div class="flex mt-2 mb-5 px-1">
@@ -62,16 +62,20 @@
               </div>
             </div>
             <div class="text-xs lg:text-base px-1">
-              <p class="text-yellow font-medium">BaanThai @ Publika</p>
-              <div>5pm - 4am Everyday</div>
-              <div>Pending</div>
-              <!-- <div class="flex mt-2 mb-5">
-                <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
-                <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
-              </div> -->
+              <p class="text-yellow font-medium">BaanThai@Publika</p>
+              <div>11am - 9pm Daily</div>
+              <div>018-6649135</div>
+              <div class="flex mt-2 mb-5 px-1">
+                <a href="https://www.facebook.com/baanthaipublika" target="_blank">
+                  <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
+                </a>
+                <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
+                  <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
+                </a>
+              </div>
             </div>
             <div class="text-xs lg:text-base px-1">
-              <p class="text-yellow font-medium">BaanThai 2 Kuchai Lama</p>
+              <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine</p>
               <div>5pm - 4am Everyday</div>
               <div>018-3153323</div>
               <div class="flex mt-2 mb-5">
