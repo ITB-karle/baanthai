@@ -1,7 +1,7 @@
 <template>
   <div class="menu-bar sticky top-0 z-50"> 
     <nav class="bg-brown relative z-50">
-      <div class="container flex flex-wrap items-center justify-between lg:justify-evenly mx-auto py-1 px-3">
+      <div class="container flex flex-wrap items-center justify-between mx-auto py-1 px-3">
         <nuxt-link to="/" class="flex items-center">
           <img src="../assets/images/Baan_Thai_Logo.webp" class="md:h-20 h-12 xl:mr-3" alt="Baan Thai Logo" />
         </nuxt-link>
@@ -23,9 +23,9 @@
         
         <div class="w-full lg:flex lg:w-auto uppercase items-center text-center menu" id="navbar-default" v-show="isMenuOpen" ref="menu">
           <ul class="font-medium flex flex-col p-4 lg:p-0 lg:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-8 lg:mt-0">
-            <li class="my-2 lg:my-0">
+            <!-- <li class="my-2 lg:my-0">
               <nuxt-link class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
-            </li>
+            </li> -->
             <li class="my-2 lg:my-0">
               <nuxt-link class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
             </li>
