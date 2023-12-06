@@ -25,9 +25,9 @@
         <div class="my-12 md:my-0">
           <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">Quick Menu</p>
           <ul class="font-thin text-xs lg:text-base mt-4 rounded-lg md:flex-row md:mt-0 md:border-0">
-            <li class="mb-3">
+            <!-- <li class="mb-3">
               <nuxt-link class="nav-link" to="/ourstory" exact-active-class="active">Our Story</nuxt-link>
-            </li>
+            </li> -->
             <li class="mb-3">
               <nuxt-link class="nav-link" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
             </li>

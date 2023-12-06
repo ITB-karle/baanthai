@@ -78,9 +78,9 @@
           <img src="../assets/images/environment.webp" alt="" class="md:w-[300px] lg:w-[375px] xl:w-[450px] lg:mx-5 px-8 md:px-2 my-3 md:my-0">
           <img src="../assets/images/environment2.webp" alt="" class="md:w-[300px] lg:w-[375px] xl:w-[450px] lg:mx-5 px-8 md:px-2 my-3 md:my-0">
         </div>
-        <nuxt-link to="/ourstory">
+        <!-- <nuxt-link to="/ourstory">
           <img src="../assets/images/next-button.webp" alt="" class="w-[50px] h-[50px] img_next-btn">
-        </nuxt-link>
+        </nuxt-link> -->
         
       </div>
       
