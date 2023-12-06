@@ -55,12 +55,23 @@
     <section class="bg-main py-10 md:py-20">
       <div class="md:grid md:grid-cols-2 container px-8 md:px-3 xl:px-0 md:mx-auto pb-8 md:pb-14 items-center">
         <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold border-l-8 lg:border-l-10 border-lightgold py-1 lg:py-3 px-7 mb-5 md:mb-0">Who is <br> Baan Thai</h1>
-        <p class="text-sm md:text-base font-medium">
-          Baan Thai means Thai home or Thai house in English. It symbolizes the unique and balanced
-          way-of-being that Thai culture embodies, and with food being its central ingredient. As
-          currently Malaysia largest indoor Thai cuisine, Baan Thai opened its doors in 2016 and has
-          been serving up an exotic choice of real Thai cookery ever since.
-        </p>
+        <div>
+          <p class="text-sm md:text-base font-medium mb-3">
+            Immerse yourself in Baan Thai to experience the essence of Thai culture
+            through our authentic dishes. Since 2016, we've been serving exotic
+            Thai cookery, a perfect balance of flavors and hospitality. Proudly
+            awarded the THAI SELECT Certificate, endorsed by the Royal Thai
+            Government, ensuring our dishes capture the true taste of
+            Thailand, both here and abroad. 
+          </p>
+          <p class="text-sm md:text-base font-medium">
+            Our culinary team blends traditional techniques with modern innovation,
+            creating an explosion of flavors that transport you to the heart of
+            Thailand. Discover warm hospitality, inviting decor, and vibrant Thai
+            flavors at Baan Thai. Savor the authenticity of Thailand right here
+            in Malaysia.
+          </p>
+        </div>
       </div>
       <div class="container mx-auto relative">
         <div class="lg:w-7/12 lg:mx-auto md:flex md:justify-center">
