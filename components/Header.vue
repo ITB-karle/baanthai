@@ -7,7 +7,7 @@
         </nuxt-link>
 
         <div class="flex items-center justify-center">
-          <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+          <a href="https://bit.ly/BTwebOO" target="_blank">
             <button class="lg:hidden rounded-full text-white text-xs bg-lightgold px-4 py-2 mx-2">ONLINE ORDER</button>
           </a>
 
@@ -43,7 +43,7 @@
             <nuxt-link to="/vipreserve">
               <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
             </nuxt-link>
-            <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
+            <a href="https://bit.ly/BTwebOO" target="_blank">
               <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-6 py-2 mx-2">ONLINE ORDER</button>
             </a>
           </div>

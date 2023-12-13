@@ -50,7 +50,7 @@
           <div class="grid grid-cols-2">
             <div class="text-xs lg:text-base">
               <p class="text-yellow font-medium">BaanThai@Pudu Ulu</p>
-              <div>5pm - 4am Everyday</div>
+              <div>5pm - 4am  Daily</div>
               <div>018-9116315</div>
               <div class="flex mt-2 mb-5 px-1">
                 <a href="https://www.facebook.com/BaanThaiRestaurantCheras/" target="_blank">
@@ -63,7 +63,7 @@
             </div>
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">BaanThai@Publika</p>
-              <div>11am - 9pm Daily</div>
+              <div>11am - 9pm  Daily</div>
               <div>018-6649135</div>
               <div class="flex mt-2 mb-5 px-1">
                 <a href="https://www.facebook.com/baanthaipublika" target="_blank">
@@ -76,10 +76,10 @@
             </div>
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine</p>
-              <div>5pm - 4am Everyday</div>
+              <div>5pm - 4am Daily</div>
               <div>018-3153323</div>
               <div class="flex mt-2 mb-5">
-                <a href="https://www.facebook.com/Baan-Thai-2-Seafood-Thai-Cuisine-1895328650689639/" target="_blank">
+                <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">
                   <img src="../assets/images/facebook.webp" alt="" class="invert w-[20px] mr-5">
                 </a>
                 <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
@@ -96,17 +96,17 @@
       <div class="lg:mx-52 text-xs md:text-sm lg:text-base text-center">
         <ul class="font-thin mt-4 rounded-lg md:mt-0 flex justify-center">
           <li class="border-r px-2 md:px-16">
-            <nuxt-link class="nav-link" to="https://weborder.zeoniq.com/one/init-b" exact-active-class="active" target="_blank">Online Order</nuxt-link>
+            <nuxt-link class="nav-link" to="https://bit.ly/BTwebOO" exact-active-class="active" target="_blank">Online Order</nuxt-link>
           </li>
           <li class="border-r px-2 md:px-16">
             <nuxt-link class="nav-link" to="/vipreserve" exact-active-class="active">Online Reservation</nuxt-link>
           </li>
-          <li class="border-r px-2 md:px-16">
+          <li class="px-2 md:px-16">
             <nuxt-link class="nav-link" to="/terms" exact-active-class="active">Terms & Conditions</nuxt-link>
           </li>
-          <li class="px-2 md:px-16">
+          <!-- <li class="px-2 md:px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Delivery Policy</nuxt-link>
-          </li>
+          </li> -->
         </ul>
       </div>
       <div class="text-center mt-5 mb-10 text-sm lg:text-base">&copy; 2023 All rights reserved by Baan Thai</div>

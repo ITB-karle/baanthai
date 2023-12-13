@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/images/vip_banner.webp" alt="vip-banner" class="w-full">
+    <img src="../assets/images/vip_banner_2.webp" alt="vip-banner" class="w-full">
     <section class="bg-marblr bg-center">
       <div class="container mx-auto">
         <section class="grid grid-cols-2 py-20 items-center mx-12">
@@ -31,7 +31,7 @@
               </div>
               <div class="flex col-span-3 justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-2 w-[25px] h-[25px]">
-                <p>RM 500 Per Room</p>
+                <p>Minimum Spending RM 500</p>
               </div>
             </div>
             <div class="text-center">
@@ -57,7 +57,7 @@
               </div>
               <div class="flex col-span-3 justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-2 w-[25px] h-[25px]">
-                <p>RM 800 Per Room</p>
+                <p>Minimum Spending RM 800</p>
               </div>
             </div>
             <div class="text-center">
@@ -83,7 +83,7 @@
               </div>
               <div class="flex col-span-3 justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-2 w-[25px] h-[25px]">
-                <p>RM 1,200 Per Room</p>
+                <p>Minimum Spending RM 1,200</p>
               </div>
             </div>
             <div class="text-center">

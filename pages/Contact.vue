@@ -8,7 +8,7 @@
       <div class="md:grid md:grid-cols-3 mt-[-50px] font-medium text-sm lg:text-lg">
         <button @click="setActive('pudu')" class="mb-5 md:mb-0 w-full">
           <div 
-            class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
+            class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-yellow-900 hover:text-white h-full"
             :class="{ 'active-map': map === 'pudu' }"
           >
             <p class="text-lg lg:text-2xl font-bold">Baan Thai@Pudu Ulu</p>
@@ -32,7 +32,7 @@
         </button>
         <button @click="setActive('kuchai')" class="mb-5 md:mb-0 w-full">
           <div
-            class="rounded-lg bg-lightgold text-brown flex flex-col text-center justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
+            class="rounded-lg bg-lightgold text-brown flex flex-col text-center justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-yellow-900 hover:text-white h-full"
             :class="{ 'active-map': map === 'kuchai' }"
           >
             <p class="text-lg lg:text-2xl font-bold">Baan Thai 2 Seafood & Thai Cuisine</p>
@@ -45,7 +45,7 @@
               <br>018-3153323
             </p>
             <div class="flex justify-around items-center w-[100px] mx-auto mt-5 mb-5">
-              <a href="https://www.facebook.com/Baan-Thai-2-Seafood-Thai-Cuisine-1895328650689639/" target="_blank">
+              <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" class="w-[15px]" />
               </a>
               <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
@@ -57,7 +57,7 @@
         
         <button @click="setActive('publika')" class="mb-5 md:mb-0 w-full">
           <div 
-            class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
+            class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-yellow-900 hover:text-white h-full"
             :class="{ 'active-map': map === 'publika' }"
           >
             <p class="text-lg lg:text-2xl font-bold">BaanThai@Publika</p>
