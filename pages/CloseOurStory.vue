@@ -1,16 +1,30 @@
 <template>
   <img src="../assets/images/os-main.webp" alt="" class="min-h-[150px] md:min-h-[250px] object-cover">
   <section class="bg-marblr py-14 lg:flex lg:items-center">
-    <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0">
-      <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
+    <div class="container mx-auto">
+    <!-- <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0"> -->
+      <!-- <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0"> -->
       <div class="mx-5 md:mx-16 xl:mx-24 px-5">
-        <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7">BAAN THAI</h1>
+        <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7 text-center">Our Story</h1>
         <p class="text-sm md:text-base font-medium">
-          Baan Thai means Thai home or Thai house in English. It symbolizes the
+          <!-- Baan Thai means Thai home or Thai house in English. It symbolizes the
           unique and balanced way-of-being that Thai culture embodies, and with
           food being its central ingredient. As currently Malaysia largest indoor
           Thai cuisine, Baan Thai opened its doors in 2016 and has been serving
-          up an exotic choice of real Thai cookery ever since.
+          up an exotic choice of real Thai cookery ever since. -->
+          Step into Baan Thai, where the essence of Thai culture comes to life in every corner. The very name, "Baan Thai," whispers the warmth of a Thai home, inviting you to embark on a journey through the heart and soul of Thailand, all within the walls of our establishment.
+        </p>
+        <p class="text-sm md:text-base font-medium">
+          Since our establishment in 2016, Baan Thai has been a beacon of authentic Thai cuisine, meticulously crafting each dish to embody the perfect balance of flavors synonymous with Thai culture. We take immense pride in being honored with the prestigious THAI SELECT Certificate, a testament to our commitment to delivering an unparalleled Thai culinary experience, recognized and endorsed by the Royal Thai Government.
+        </p>
+        <p class="text-sm md:text-base font-medium">
+          At Baan Thai, we go beyond merely serving dishes – we curate an immersive encounter with Thailand's rich culinary heritage. Our culinary artisans, steeped in tradition, seamlessly blend time-honored techniques with modern innovation, resulting in an explosion of flavors that transports you directly to the heart of Thailand.
+        </p>
+        <p class="text-sm md:text-base font-medium">
+          As you step through our doors, you are greeted not just by the aroma of spices but by the warm hospitality that defines Thai culture. The inviting decor mirrors the vibrant tapestry of Thailand, creating an atmosphere that complements the feast for your senses that awaits you at the dining table.
+        </p>
+        <p class="text-sm md:text-base font-medium">
+          Baan Thai isn't just a restaurant; it's a gateway to the authenticity of Thailand right here in Malaysia. Join us on a culinary adventure that transcends borders, allowing you to savor the true taste of Thailand without leaving the comfort of our home.
         </p>
       </div>
     </div>
@@ -33,12 +47,13 @@
         <h1 class="text-xl lg:text-5xl text-brown font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-l-8 lg:border-l-10 border-lightgold uppercase">
           Our<br class="hidden lg:block"> Mission
         </h1>
-        <p class="text-sm md:text-base font-medium">
-          Baan Thai means Thai home or Thai house in English. It symbolizes the
+        <p class="text-sm md:text-base lg:text-xl font-medium">
+          <!-- Baan Thai means Thai home or Thai house in English. It symbolizes the
           unique and balanced way-of-being that Thai culture embodies, and with
           food being its central ingredient. As currently Malaysia largest indoor
           Thai cuisine, Baan Thai opened its doors in 2016 and has been serving
-          up an exotic choice of real Thai cookery ever since.
+          up an exotic choice of real Thai cookery ever since. -->
+          Provide fresh and authentic traditional Thai cuisine in Malaysia.   
         </p>
       </div>
       <img src="../assets/images/os-mission.webp" alt="" class="px-5 md:px-16 lg:px-0 mt-7 lg:mt-0 mb-5 lg:mb-0">
@@ -52,12 +67,13 @@
         <h1 class="text-xl lg:text-5xl text-brown text-right font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-r-8 lg:border-r-10 border-lightgold uppercase">
           Our<br class="hidden lg:block"> Vision
         </h1>
-        <p class="text-sm md:text-base font-medium text-right">
-          Baan Thai means Thai home or Thai house in English. It symbolizes the
+        <p class="text-sm md:text-base lg:text-xl font-medium text-right">
+          <!-- Baan Thai means Thai home or Thai house in English. It symbolizes the
           unique and balanced way-of-being that Thai culture embodies, and with
           food being its central ingredient. As currently Malaysia largest indoor
           Thai cuisine, Baan Thai opened its doors in 2016 and has been serving
-          up an exotic choice of real Thai cookery ever since.
+          up an exotic choice of real Thai cookery ever since. -->
+          Be the largest and the pioneer of authentic Thai food in Malaysia.
         </p>
       </div>
     </div>
@@ -78,7 +94,7 @@
               <p class="text-lightgold font-medium">Inception & Inspration</p>
               <p class="text-sm">
                 Our Thai food restaurant opened its doors in the vibrant city of
-                Bangkok in 2016. It was founded by a group of enthusiastic
+                Kuala Lumpur in 2016. It was founded by a group of enthusiastic
                 entrepreneurs who were deeply passionate about Thai cuisine and
                 its rich cultural heritage.
               </p>
@@ -90,10 +106,10 @@
               <p class="text-2xl font-medium">2017 - 2019</p>
               <p class="text-lightgold font-medium">Crafting the Menu</p>
               <p class="text-sm">
-                By 2019, the restaurant had gained a loyal customer base and became a
-                popular destination for locals and tourists alike. Its reputation for
-                quality ingredients, attention to detail, and friendly ambiance
-                attracted food enthusiasts from various walks of life.
+                By 2019, the restaurant had gained a loyal customer base and became
+                a popular destination for locals and tourists alike. Its reputation
+                for quality ingredients, attention to detail, and friendly ambiance
+                a   ttracted food enthusiasts from various walks of life.
               </p>
             </div>
             <div class="circle-container">
@@ -111,9 +127,15 @@
             </div>
             <div class="h-[200px] mr-10 md:mr-20">
               <p class="text-2xl font-medium">2019 - 2021</p>
-              <p class="text-lightgold font-medium">Covid-19 Attack Us</p>
+              <p class="text-lightgold font-medium">Covid-19, MCO Period</p>
               <p class="text-sm">
-                Write Some down time story here.
+                Facing the challenges of Covid-19, Baan Thai remained open and
+                responsive to our community's needs. We established a food bank
+                to support those in need during these difficult times. This
+                initiative symbolizes our commitment to both culinary excellence
+                and community service, embodying the true spirit of Thai
+                hospitality. As we continue to serve our patrons, we carry forward
+                the lessons of compassion and unity forged during the pandemic.
               </p>
             </div>
           </section>
@@ -126,7 +148,7 @@
                 By 2023, the restaurant had garnered a strong reputation within Thailand
                 and beyond. Capitalizing on its success, the founders decided to expand
                 their venture, opening branches in other major cities both nationally
-                and internationally. 
+                and internationally.
               </p>
             </div>
             <div class="circle-container">
@@ -157,9 +179,15 @@
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <div class="h-[200px] mr-10 md:mr-20">
               <p class="text-2xl font-medium">2023 - Ongoing</p>
-              <p class="text-lightgold font-medium uppercase">Thai Select Awards</p>
+              <p class="text-lightgold font-medium uppercase">THAI SELECT AWARDS / World KahPao Competition</p>
               <p class="text-sm">
-                Write something bout the award
+                At Baan Thai, we are honored to receive the prestigious THAI SELECT Award
+                from the Royal Thai Government, recognizing our dedication to authentic
+                Thai cuisine. Additionally, we are proud to announce our 2nd runner-up
+                placement at the World KahPao Competition in Bangkok, October 2023.
+                These achievements highlight our commitment to culinary excellence,
+                blending tradition with innovation. We are grateful for the recognition
+                and inspired to continue delivering the true taste of Thailand at Baan Thai.
               </p>
             </div>
             <div class="circle-container">

@@ -114,35 +114,43 @@
           <img src="../assets/images/food.webp" alt="">
           <div class="p-4">
             <p class="font-medium text-base md:text-xl">Red Tom Yum Soup</p>
-            <p class="text-sm md:text-base">It's made with shrimp, chicken stock, mushrooms, veggies, and spices.</p>
+            <p class="text-sm md:text-base">A Thai hot and sour soup that is aromatic, rich, spicy, and satisfying!</p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food2.webp" alt="">
           <div class="p-4">
             <p class="font-medium text-base md:text-xl">Grilled Fish with Salt</p>
-            <p class="text-sm md:text-base">It's made with shrimp, chicken stock, mushrooms, veggies, and spices.</p>
+            <p class="text-sm md:text-base">Fish is coated in a thick layer of salt, slow roasted and eaten with
+              a garlicky spicy chili dipping sauce.
+            </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food3.webp" alt="">
           <div class="p-4">
             <p class="font-medium text-base md:text-xl">BBQ Pork Sticks</p>
-            <p class="text-sm md:text-base">It's made with shrimp, chicken stock, mushrooms, veggies, and spices.</p>
+            <p class="text-sm md:text-base">Thinly sliced pork, marinated, grilled on a stick, and brushed with
+              our secret sauce for perfect flavor.
+            </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food4.webp" alt="">
           <div class="p-4">
             <p class="font-medium text-base md:text-xl">Steam Siakap with <br class="hidden md:block"> Spicy Lime Sauce</p>
-            <p class="text-sm md:text-base">It's made with shrimp, chicken stock, mushrooms, veggies, and spices.</p>
+            <p class="text-sm md:text-base">
+              A steamed Siakap, in a sauce made with lots of fresh lime juice, garlic, and chilies.
+            </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food5.webp" alt="">
           <div class="p-4">
             <p class="font-medium text-base md:text-xl">Deep Fried <br class="hidden md:block"> Pandan Chicken</p>
-            <p class="text-sm md:text-base">Fried chicken wrapped with screwpine leaves.</p>
+            <p class="text-sm md:text-base">
+              Boneless chicken pieces marinated in rich and flavourful spices and wrapped with fragrant pandan leaves.
+            </p>
           </div>
         </div>
       </div>
