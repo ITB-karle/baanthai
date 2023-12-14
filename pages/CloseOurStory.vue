@@ -114,7 +114,7 @@
           </section>
 
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
-            <img src="../assets/images/bt-story2.webp" alt="" class="h-[220px]">
+            <img src="../assets/images/mco.webp" alt="" class="h-[220px] w-[220px] object-cover">
             <div class="circle-container">
               <div class="circle"></div>
               <hr class="line my-10">
