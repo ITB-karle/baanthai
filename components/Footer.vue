@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-brown text-white grow z-50">
+  <div class="bg-brown text-white grow z-50 footer">
     <section class="container mx-auto">
       <div class="md:grid md:grid-cols-4 mt-16 mb-5 mx-5 md:mx-7 lg:mx-10 border-b border-b-white border-opacity-10">
         <div class="mx-auto text-center text-xs lg:text-base">
@@ -8,7 +8,7 @@
           </nuxt-link>
           <div>
             <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
-              <button class="bg-darkgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
+              <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
                 ONLINE ORDER
               </button>
             </a>
@@ -76,7 +76,7 @@
             </div>
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine</p>
-              <div>5pm - 4am Daily</div>
+              <div>1pm - 4.30am Daily</div>
               <div>018-3153323</div>
               <div class="flex mt-2 mb-5">
                 <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">

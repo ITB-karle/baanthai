@@ -438,7 +438,7 @@ div.eapps-widget {
 
 
 /* header */
-.menu-bar button:hover {
+.menu-bar button:hover, .footer button:hover {
   background-color: #845C2B !important;
 }
 
