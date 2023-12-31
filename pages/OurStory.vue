@@ -4,7 +4,7 @@
     <div class="container mx-auto">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0">
       <!-- <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0"> -->
-      <img src="../assets/images/ourstory.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
+      <img src="../assets/images/Ourstory.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
       <div class="px-12 text-justify">
         <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7 text-center">Our Story</h1>
         <p class="text-sm md:text-base font-medium mb-4">
