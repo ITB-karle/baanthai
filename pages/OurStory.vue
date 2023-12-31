@@ -168,7 +168,7 @@
           </section>
 
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
-            <img src="../assets/images/bt-story5.webp" alt="" class="h-[220px]">
+            <img src="../assets/images/combine-image.webp" alt="" class="h-[220px]">
             <div class="circle-container">
               <div class="circle"></div>
               <hr class="line my-10">

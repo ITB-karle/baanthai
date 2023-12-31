@@ -18,7 +18,7 @@
             </p>
             <p>
               Phone:
-              <br>018-9116315
+              <br>018-911 6315
             </p>
             <div class="flex justify-around items-center w-[100px] mx-auto mt-5 mb-5">
               <a href="https://www.facebook.com/BaanThaiRestaurantCheras/" target="_blank">
@@ -42,13 +42,13 @@
             </p>
             <p>
               Phone:
-              <br>018-3153323
+              <br>018-315 3323
             </p>
             <div class="flex justify-around items-center w-[100px] mx-auto mt-5 mb-5">
               <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" class="w-[15px]" />
               </a>
-              <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
+              <a href="https://www.instagram.com/baanthai2_kuchai?igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
                 <font-awesome-icon :icon="['fab', 'instagram']" class="w-[30px]" />
               </a>
             </div>
@@ -60,7 +60,7 @@
             class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
             :class="{ 'active-map': map === 'publika' }"
           >
-            <p class="text-lg lg:text-2xl font-bold">BaanThai@Publika</p>
+            <p class="text-lg lg:text-2xl font-bold">Baan Thai@Publika</p>
             <p class="my-7">
               Address:
               <br>A1-G2, 08, Jln Dutamas 1, Solaris Dutamas, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur
@@ -73,7 +73,7 @@
               <a href="https://www.facebook.com/baanthaipublika" target="_blank">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" class="w-[15px]" />
               </a>
-              <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
+              <a href="https://www.instagram.com/baanthai_publika?igsh=OGQ5ZDc2ODk2ZA==" target="_blank">
                 <font-awesome-icon :icon="['fab', 'instagram']" class="w-[30px]" />
               </a>
             </div>

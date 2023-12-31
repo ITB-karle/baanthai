@@ -8,11 +8,16 @@
             Book a <br>VIP Room
           </h1>
           <div class="font-medium">
-            <p class="mb-7">
+            <!-- <p class="mb-7">
               Restaurant will be open for all days, from 5 p.m. to 4 a.m. All booking payment is secured with credit
               card, no charges will be apply for online booking.
             </p>
-            <p>Booking request 018-3153323 or book it online.</p>
+            <p>Booking request 018-3153323 or book it online.</p> -->
+            <p class="mb-7 italic">
+              Experience the ease of securing your spot at our dining haven. From the convenience of your device,
+              reserve your table effortlessly, and embark on a culinary journey with the assurance that your
+              reservation is as seamless as the moments you'll spend with us.
+            </p>
           </div>
         </section>
 
@@ -96,7 +101,7 @@
           </div>
 
           <div class="m-8">
-            <img src="../assets/images/bt2-room4.webp" alt="room type 1">
+            <img src="../assets/images/bt2-room4.webp" alt="room type 4">
             <p class="text-xl text-brown font-bold text-center mt-7 mb-12">Baan Thai 2 Seafood & Thai Cuisine <br> (VIP ROOM Type 4)</p>
             <div class="grid grid-cols-12 items-center text-sm text-center mx-5">
               <div class="flex col-span-3">
@@ -110,7 +115,7 @@
               </div>
               <div class="flex col-span-3 justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-2 w-[25px] h-[25px]">
-                <p>RM 2,000 Per Room</p>
+                <p>Minimum Spending RM2,000</p>
               </div>
             </div>
             <div class="text-center">

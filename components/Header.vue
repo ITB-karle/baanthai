@@ -23,9 +23,9 @@
         
         <div class="w-full lg:flex lg:w-auto uppercase items-center text-center menu" id="navbar-default" v-show="isMenuOpen" ref="menu">
           <ul class="font-medium flex flex-col p-4 lg:p-0 lg:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-8 lg:mt-0">
-            <!-- <li class="my-2 lg:my-0">
+            <li class="my-2 lg:my-0">
               <nuxt-link class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
-            </li> -->
+            </li>
             <li class="my-2 lg:my-0">
               <nuxt-link class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
             </li>
@@ -36,7 +36,7 @@
               <nuxt-link class="nav-link text-lightgold" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link class="nav-link text-lightgold" to="/points" exact-active-class="active">Mulah Point</nuxt-link>
+              <nuxt-link class="nav-link text-lightgold" to="/points" exact-active-class="active">Point Check</nuxt-link>
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
