@@ -1,5 +1,5 @@
 <template>
-  <img src="../assets/images/os-main.webp" alt="" class="min-h-[150px] md:min-h-[250px] object-cover">
+  <img src="../assets/images/vip_banner_2.webp" alt="" class="min-h-[150px] md:min-h-[250px] object-cover">
   <section class="bg-marblr py-14 lg:flex lg:items-center">
     <div class="container mx-auto">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0">
