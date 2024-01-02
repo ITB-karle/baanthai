@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/images/Room 99.webp" alt="vip-banner" class="w-full">
+    <img src="../assets/images/Room99.webp" alt="vip-banner" class="w-full">
     <section class="bg-marblr bg-center">
       <div class="container mx-auto">
         <section class="grid lg:grid-cols-2 pt-12 lg:py-20 items-center mx-5 lg:mx-12">
