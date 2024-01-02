@@ -1,9 +1,9 @@
 <template>
   <div class="menu-bar sticky top-0 z-50"> 
     <nav class="bg-brown relative z-50">
-      <div class="container flex flex-wrap items-center justify-between mx-auto py-1 px-3">
+      <div class="container flex flex-wrap items-center justify-between mx-auto py-1 px-3 lg:px-2 xl:px-3">
         <nuxt-link to="/" class="flex items-center">
-          <img src="../assets/images/Baan_Thai_Logo.webp" class="md:h-20 h-12 xl:mr-3" alt="Baan Thai Logo" />
+          <img src="../assets/images/Baan_Thai_Logo.webp" class="md:h-20 lg:h-16 h-12 xl:mr-3" alt="Baan Thai Logo" />
         </nuxt-link>
 
         <div class="flex items-center justify-center">
@@ -22,7 +22,7 @@
 
         
         <div class="w-full lg:flex lg:w-auto uppercase items-center text-center menu" id="navbar-default" v-show="isMenuOpen" ref="menu">
-          <ul class="font-medium flex flex-col p-4 lg:p-0 lg:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-8 lg:mt-0">
+          <ul class="font-medium flex flex-col p-4 lg:p-0 xl:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-6 xl:space-x-8 lg:mt-0">
             <li class="my-2 lg:my-0">
               <nuxt-link class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
             </li>
@@ -41,10 +41,10 @@
           </ul>
           <div class="text-center text-xs md:text-base">
             <nuxt-link to="/vipreserve">
-              <button class="rounded-full text-white bg-lightgold px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
+              <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
             </nuxt-link>
             <a href="https://bit.ly/BTwebOO" target="_blank">
-              <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-6 py-2 mx-2">ONLINE ORDER</button>
+              <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">ONLINE ORDER</button>
             </a>
           </div>
         </div>

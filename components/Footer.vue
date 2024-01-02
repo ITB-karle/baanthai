@@ -17,7 +17,7 @@
           <div>
             <nuxt-link to="/vipreserve">
               <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
-                VIP RESERVE
+                VIP RESERVATION
               </button>
             </nuxt-link>
           </div>
