@@ -14,4 +14,10 @@ export default defineNuxtConfig({
     { src: '~/plugins/fontawesome', ssr: false },
   ],
   ssr: false,
+
+    // Router configuration for setting base URL
+  router: {
+    base: '/' // Replace with your actual base URL if applicable
+  }
 })
+

@@ -103,7 +103,7 @@
                 By 2019, the restaurant had gained a loyal customer base and became
                 a popular destination for locals and tourists alike. Its reputation
                 for quality ingredients, attention to detail, and friendly ambiance
-                a   ttracted food enthusiasts from various walks of life.
+                attracted food enthusiasts from various walks of life.
               </p>
             </div>
             <div class="circle-container">
