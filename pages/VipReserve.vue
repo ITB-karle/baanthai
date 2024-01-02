@@ -36,7 +36,7 @@
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Minimum Spending RM 500</p>
+                <p>Minimum Spending RM500</p>
               </div>
             </div>
             <div class="text-center">
@@ -62,7 +62,7 @@
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Minimum Spending RM 800</p>
+                <p>Minimum Spending RM800</p>
               </div>
             </div>
             <div class="text-center">
@@ -88,7 +88,7 @@
               </div>
               <div class="flex xl:col-span-3 items-center xl:justify-end">
                 <img src="../assets/images/vip-receipt.webp" alt="receipt-icon" class="mr-5 xl:mr-2 w-[25px] h-[25px]">
-                <p>Minimum Spending RM 1,200</p>
+                <p>Minimum Spending RM1,200</p>
               </div>
             </div>
             <div class="text-center">
