@@ -45,7 +45,6 @@ body, html {
   background-image: url("../assets/images/bg-vip-reserve.webp");
   background-color: rgba(0, 0, 0, 0.4);
   height: auto;
-  /* min-height: 500px; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,60 +73,6 @@ body, html {
   background-size: cover;
   position: relative;
 }
-
-
-/* .bg-ourfoods {
-  background-image: url("../assets/images/OurFoods.webp");
-  background-color: #000000;
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-} */
-
-
-/* .of-card-1 {
-  position: absolute;
-  top: 2000px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 25px;
-}
-
-.of-card-2 {
-  position: absolute;
-  top: 3200px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 25px;
-}
-
-.of-card-3 {
-  position: absolute;
-  top: 4300px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 25px;
-}
-
-.of-card-4 {
-  position: absolute;
-  top: 5500px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  padding: 25px;
-} */
-
 
 .of-card li {
   transition: ease all .3s;
@@ -170,7 +115,6 @@ body, html {
   width: 100%; /* Occupy full width of the container */
   padding: 10px; /* Add padding to prevent content from sticking to the edges */
   transform: translateX(0);
-  /* animation: scrollAnimation 25s linear infinite; Adjust animation duration as needed */
 }
 
 @keyframes scrollAnimation {
@@ -228,16 +172,13 @@ body, html {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .swiper-slide img {
-  /* display: block;
-  width: 100%;
-  height: 100%; */
+
   object-fit: cover;
   margin-top: -1px;
 }
@@ -332,17 +273,6 @@ body, html {
 }
 
 
-/* @media only screen and (max-width: 600px) {
-  .swiper-button-next {
-    color: # !important;
-  }
-} */
-
-/* .active-map {
-  background-color: #402415 !important;
-  color: #BC945F !important;
-} */
-
 #app .mulah-home, #mulah-app .mulah-home {
   justify-content: center;
 }
@@ -398,15 +328,6 @@ body, html {
   margin: 0 auto;
 }
 
-/* .bg-ourfoods > div:nth-child(even) img{
-  position: relative;
-  left: -15%;
-}
-
-.bg-ourfoods > div:nth-child(even) > div:last-child img{
-  left: auto;
-  right: -15%;
-} */
 
 .bg-ourfoods > div > div img {
   margin: 0 auto;
