@@ -53,9 +53,9 @@
     </section>
    
     <section class="bg-main py-10 md:py-20">
-      <div class="md:grid md:grid-cols-2 container px-8 md:px-3 xl:px-0 md:mx-auto pb-8 md:pb-14 items-center">
+      <div class="md:grid md:grid-cols-2 container px-8 md:px-3 lg:px-5 2xl:px-0 md:mx-auto pb-8 md:pb-14 items-center">
         <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold border-l-8 lg:border-l-10 border-lightgold py-1 lg:py-3 px-7 mb-5 md:mb-0">Who is <br> Baan Thai</h1>
-        <div>
+        <div class="text-justify">
           <p class="text-sm md:text-base font-medium mb-3">
             Immerse yourself in Baan Thai to experience the essence of Thai culture
             through our authentic dishes. Since 2016, we've been serving exotic

@@ -15,6 +15,10 @@ body, html {
   background-color: #D7D7D7;
 }
 
+.container {
+  max-width: 1450px;
+}
+
 .bg-main {
   background-image: url("../assets/images/Baanthai_home.webp");
   background-color: rgba(255, 255, 255, 0.8);
@@ -450,10 +454,6 @@ div.eapps-widget {
   transform: translate(10%, 40%);
 }
 
-.container {
-  max-width: 1450px;
-}
-
 .bg-ourfoods {
   background-image: url("../assets/images/foods/table.webp");
   /* background-color: rgba(255, 255, 255, 0);
@@ -718,6 +718,9 @@ div.eapps-widget {
 }
 
 @media screen and (min-width: 1200px) and (max-width:1449px) {
+  .container {
+    max-width: 1280px;
+  }
 
   .bg-ourfoods {
     .container {
