@@ -113,7 +113,7 @@
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">Red Tom Yum Soup</p>
+            <p class="font-medium text-base md:text-xl">Red Tomyam Soup</p>
             <p class="text-sm md:text-base">A Thai hot and sour soup that is aromatic, rich, spicy, and satisfying!</p>
           </div>
         </div>

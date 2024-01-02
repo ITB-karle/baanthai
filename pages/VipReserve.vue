@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img src="../assets/images/vip_banner_2.webp" alt="vip-banner" class="w-full">
+    <img src="../assets/images/Room 99.webp" alt="vip-banner" class="w-full">
     <section class="bg-marblr bg-center">
       <div class="container mx-auto">
         <section class="grid lg:grid-cols-2 pt-12 lg:py-20 items-center mx-5 lg:mx-12">
@@ -23,7 +23,7 @@
 
         <section class="grid lg:grid-cols-2">
           <div class="m-5 lg:m-8">
-            <img src="../assets/images/bt2-room1.webp" alt="room type 1">
+            <img src="../assets/images/Room1.webp" alt="room type 1">
             <p class="text-xl text-brown font-bold text-center mt-7 mb-7 lg:mb-12">Baan Thai 2 Seafood & Thai Cuisine <br> (VIP ROOM Type 1)</p>
             <div class="grid xl:grid-cols-12 items-center text-sm xl:text-center mx-auto lg:mx-5 max-w-[500px] xl:max-w-[1000px]">
               <div class="flex xl:col-span-3 items-center mb-3 xl:mb-0">
