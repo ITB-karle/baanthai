@@ -2,7 +2,7 @@
   <div class="menu-bar sticky top-0 z-50"> 
     <nav class="bg-brown relative z-50">
       <div class="container flex flex-wrap items-center justify-between mx-auto py-1 px-3 lg:px-2 xl:px-3">
-        <nuxt-link @click="closeMenu" to="/" class="flex items-center">
+        <nuxt-link @click="closeMenu()" to="/" class="flex items-center">
           <img src="../assets/images/Baan_Thai_Logo.webp" class="md:h-20 lg:h-16 h-12 xl:mr-3" alt="Baan Thai Logo" />
         </nuxt-link>
 
@@ -24,23 +24,23 @@
         <div class="w-full lg:flex lg:w-auto uppercase items-center text-center menu" id="navbar-default" v-show="isMenuOpen" ref="menu">
           <ul class="font-medium flex flex-col p-4 lg:p-0 xl:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-6 xl:space-x-8 lg:mt-0">
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu" class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu" class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu" class="nav-link text-lightgold" to="/gallery" exact-active-class="active">Gallery</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/gallery" exact-active-class="active">Gallery</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu" class="nav-link text-lightgold" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu" class="nav-link text-lightgold" to="/points" exact-active-class="active">Point Check</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/points" exact-active-class="active">Point Check</nuxt-link>
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
-            <nuxt-link @click="closeMenu" to="/vipreserve">
+            <nuxt-link @click="closeMenu('vipreserve')" to="/vipreserve">
               <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
             </nuxt-link>
             <a href="https://bit.ly/BTwebOO" target="_blank">
@@ -102,9 +102,16 @@ export default {
     },
 
     // Close the menu when a navigation link is clicked
-    closeMenu() {
+    closeMenu(type = null) {
       this.isMenuOpen = false;
+      if (type) {
+        useTrackEvent(type, {
+          method: 'Website'
+        })
+      }
     },
+
+
   },
 };
 </script>

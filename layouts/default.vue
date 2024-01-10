@@ -14,3 +14,11 @@
   </div>
 
 </template>
+
+<script setup>
+import { useNuxtApp } from '#app';
+  const nuxtApp = useNuxtApp();
+  console.log(nuxtApp.$fb);
+  nuxtApp.$fb.enable();
+
+</script>
