@@ -5,19 +5,12 @@
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:justify-center lg:items-center lg:px-12 xl:px-0">
       <img src="../assets/images/os-baanthai.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
       <div class="px-12 text-justify">
-        <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7 text-center">Our Story</h1>
+        <h1 class="text-2xl lg:text-5xl text-brown font-bold mb-3 lg:mb-7 text-center">{{ $t('os') }}</h1>
         <p class="text-sm md:text-base font-medium mb-4">
-          Embark on a Thai culinary journey at Baan Thai, honored with the prestigious
-          THAI SELECT Certificate in 2023. Since our establishment in 2016, we've been
-          a beacon of authentic Thai cuisine, meticulously crafting each dish to embody
-          the perfect balance of flavors synonymous with Thai culture. Our culinary
-          artisans blend tradition and innovation, offering an immersive encounter
-          with Thailand's rich culinary heritage. 
+          {{ $t('os_content') }} 
         </p>
         <p class="text-sm md:text-base font-medium">
-          Step into our vibrant space filled with the aroma of spices and the hospitality
-          of Thai culture. Baan Thai is not just a restaurant; it's an authentic gateway
-          to Thailand in Malaysia, where you can savor the true taste of Thailand.
+          {{ $t('os_content2') }} 
         </p>
       </div>
       </div>
@@ -39,7 +32,7 @@
     <div class="container mx-auto lg:grid lg:grid-cols-2 flex-col-reverse lg:flex-row lg:justify-center lg:items-center lg:px-12 xl:px-0">
       <div class="mx-10 md:px-16 lg:px-0">
         <h1 class="text-xl lg:text-5xl text-brown font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-l-8 lg:border-l-10 border-lightgold uppercase">
-          Our<br class="hidden lg:block"> Mission
+          {{ $t('os_om') }}<br class="hidden lg:block"> {{ $t('os_om2') }}
         </h1>
         <p class="text-sm md:text-base lg:text-xl font-medium">
           <!-- Baan Thai means Thai home or Thai house in English. It symbolizes the
@@ -47,7 +40,7 @@
           food being its central ingredient. As currently Malaysia largest indoor
           Thai cuisine, Baan Thai opened its doors in 2016 and has been serving
           up an exotic choice of real Thai cookery ever since. -->
-          Provide fresh and authentic traditional Thai cuisine in Malaysia.   
+          {{ $t('os_om_content') }}  
         </p>
       </div>
       <img src="../assets/images/Ourstory.webp" alt="" class="px-5 md:px-16 lg:px-0 mt-7 lg:mt-0 mb-5 lg:mb-0">
@@ -59,7 +52,7 @@
       <img src="../assets/images/os-vision.webp" alt="" class="px-5 md:px-16 lg:px-0 mb-7 lg:mb-0">
       <div class="mx-10 md:px-16 lg:px-0">
         <h1 class="text-xl lg:text-5xl text-brown text-right font-bold mb-3 lg:mb-12 px-5 lg:px-8 py-2 lg:py-4 border-r-8 lg:border-r-10 border-lightgold uppercase">
-          Our<br class="hidden lg:block"> Vision
+          {{ $t('os_ov') }}<br class="hidden lg:block"> {{ $t('os_ov2') }}
         </h1>
         <p class="text-sm md:text-base lg:text-xl font-medium text-right">
           <!-- Baan Thai means Thai home or Thai house in English. It symbolizes the
@@ -67,7 +60,7 @@
           food being its central ingredient. As currently Malaysia largest indoor
           Thai cuisine, Baan Thai opened its doors in 2016 and has been serving
           up an exotic choice of real Thai cookery ever since. -->
-          Be the largest and the pioneer of authentic Thai food in Malaysia.
+          {{ $t('os_ov_content') }}  
         </p>
       </div>
     </div>
@@ -85,12 +78,9 @@
             </div>
             <div class="h-[220px] mr-10">
               <p class="text-2xl font-medium">2016</p>
-              <p class="text-lightgold font-medium">Inception & Inspration</p>
+              <p class="text-lightgold font-medium">{{ $t('os_title_2016') }}</p>
               <p class="text-sm">
-                Our Thai food restaurant opened its doors in the vibrant city of
-                Kuala Lumpur in 2016. It was founded by a group of enthusiastic
-                entrepreneurs who were deeply passionate about Thai cuisine and
-                its rich cultural heritage.
+                {{ $t('os_content_2016') }}
               </p>
             </div>
           </section>
@@ -98,12 +88,9 @@
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <div class="h-[220px] mr-10">
               <p class="text-2xl font-medium">2017 - 2019</p>
-              <p class="text-lightgold font-medium">Crafting the Menu</p>
+              <p class="text-lightgold font-medium">{{ $t('os_title_2017') }}</p>
               <p class="text-sm">
-                By 2019, the restaurant had gained a loyal customer base and became
-                a popular destination for locals and tourists alike. Its reputation
-                for quality ingredients, attention to detail, and friendly ambiance
-                attracted food enthusiasts from various walks of life.
+                {{ $t('os_content_2017') }}
               </p>
             </div>
             <div class="circle-container">
@@ -121,13 +108,9 @@
             </div>
             <div class="h-[220px] mr-10">
               <p class="text-2xl font-medium">2019 - 2021</p>
-              <p class="text-lightgold font-medium">Covid-19, MCO Period</p>
+              <p class="text-lightgold font-medium">{{ $t('os_title_2019') }}</p>
               <p class="text-sm">
-                Despite Covid-19 challenges, Baan Thai stayed open, launching a food
-                bank to aid the community. This reflects our dedication to culinary
-                excellence and community service, embodying Thai hospitality. Serving
-                our patrons, we carry the lessons of compassion and unity from the
-                pandemic.
+                {{ $t('os_content_2019') }}
               </p>
             </div>
           </section>
@@ -152,12 +135,9 @@
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <div class="h-[220px] mr-10">
               <p class="text-2xl font-medium">2022 - 2023</p>
-              <p class="text-lightgold font-medium">Cultural Exchange and Ambassadorship</p>
+              <p class="text-lightgold font-medium">{{ $t('os_title_2022') }}</p>
               <p class="text-sm">
-                Participating in food festivals, cultural events, and international culinary
-                exhibitions. Through these platforms, they shared the beauty and diversity
-                of Thai cuisine with a global audience, fostering appreciation for Thai
-                traditions.
+                {{ $t('os_content_2022') }}
               </p>
             </div>
             <div class="circle-container">
@@ -174,14 +154,10 @@
               <hr class="line my-10">
             </div>
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2023 - Ongoing</p>
-              <p class="text-lightgold font-medium">THAI SELECT AWARDS / World KahPao Competition</p>
+              <p class="text-2xl font-medium">2023{{ $t('os_ongoing_2023') }}</p>
+              <p class="text-lightgold font-medium">{{ $t('os_title_2023') }}</p>
               <p class="text-sm">
-                Baan Thai proudly accepts the THAI SELECT Award from the Royal Thai Government
-                for our dedication to authentic Thai cuisine. Excitingly, we secured 2nd
-                runner-up at the World KahPao Competition in Bangkok, August 2023. Grateful
-                for the recognition, we're inspired to keep delivering the true taste of
-                Thailand at Baan Thai.
+                {{ $t('os_content_2023') }}
               </p>
             </div>
           </section>                                      

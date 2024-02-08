@@ -65,22 +65,13 @@
    
     <section class="bg-main py-10 md:py-20">
       <div class="md:grid md:grid-cols-2 container px-8 md:px-3 lg:px-5 2xl:px-0 md:mx-auto pb-8 md:pb-14 items-center">
-        <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold border-l-8 lg:border-l-10 border-lightgold py-1 lg:py-3 px-7 mb-5 md:mb-0">Who is <br> Baan Thai</h1>
+        <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold border-l-8 lg:border-l-10 border-lightgold py-1 lg:py-3 px-7 mb-5 md:mb-0" v-html="$t('mp_title')"></h1>
         <div class="text-justify">
           <p class="text-sm md:text-base font-medium mb-3">
-            Immerse yourself in Baan Thai to experience the essence of Thai culture
-            through our authentic dishes. Since 2016, we've been serving exotic
-            Thai cookery, a perfect balance of flavors and hospitality. Proudly
-            awarded the THAI SELECT Certificate, endorsed by the Royal Thai
-            Government, ensuring our dishes capture the true taste of
-            Thailand, both here and abroad. 
+            {{ $t('mp_content') }}
           </p>
           <p class="text-sm md:text-base font-medium">
-            Our culinary team blends traditional techniques with modern innovation,
-            creating an explosion of flavors that transport you to the heart of
-            Thailand. Discover warm hospitality, inviting decor, and vibrant Thai
-            flavors at Baan Thai. Savor the authenticity of Thailand right here
-            in Malaysia.
+            {{ $t('mp_content2') }}
           </p>
         </div>
       </div>
@@ -124,43 +115,45 @@
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">Red Tomyam Soup</p>
-            <p class="text-sm md:text-base">A Thai hot and sour soup that is aromatic, rich, spicy, and satisfying!</p>
+            <p class="font-medium text-base md:text-xl">{{ $t('mp_food') }}</p>
+            <p class="text-sm md:text-base">
+              {{ $t('mp_food_detail') }}
+            </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food2.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">Grilled Fish with Salt</p>
-            <p class="text-sm md:text-base">Fish is coated in a thick layer of salt, slow roasted and eaten with
-              a garlicky spicy chili dipping sauce.
+            <p class="font-medium text-base md:text-xl">{{ $t('mp_food2') }}</p>
+            <p class="text-sm md:text-base">
+              {{ $t('mp_food2_detail') }}
             </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food3.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">BBQ Pork Sticks</p>
-            <p class="text-sm md:text-base">Thinly sliced pork, marinated, grilled on a stick, and brushed with
-              our secret sauce for perfect flavor.
+            <p class="font-medium text-base md:text-xl">{{ $t('mp_food3') }}</p>
+            <p class="text-sm md:text-base">
+              {{ $t('mp_food3_detail') }}
             </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food4.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">Steam Siakap with <br class="hidden md:block"> Spicy Lime Sauce</p>
+            <p class="font-medium text-base md:text-xl">{{ $t('mp_food4') }}</p>
             <p class="text-sm md:text-base">
-              A steamed Siakap, in a sauce made with lots of fresh lime juice, garlic, and chilies.
+              {{ $t('mp_food4_detail') }}
             </p>
           </div>
         </div>
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food5.webp" alt="">
           <div class="p-4">
-            <p class="font-medium text-base md:text-xl">Deep Fried <br class="hidden md:block"> Pandan Chicken</p>
+            <p class="font-medium text-base md:text-xl">{{ $t('mp_food5') }}</p>
             <p class="text-sm md:text-base">
-              Boneless chicken pieces marinated in rich and flavourful spices and wrapped with fragrant pandan leaves.
+              {{ $t('mp_food5_detail') }}
             </p>
           </div>
         </div>
@@ -174,7 +167,7 @@
     </section>
 
     <section class="bg-marblr py-16 md:pt-36 md:pb-24">
-      <h1 class="uppercase text-2xl lg:text-5xl text-black font-bold text-center mb-5 lg:mb-12">Gallery</h1>
+      <h1 class="uppercase text-2xl lg:text-5xl text-black font-bold text-center mb-5 lg:mb-12">{{ $t('mp_title3') }}</h1>
       <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 container mx-auto px-0 md:px-16 lg:px-0">
         <div class="mx-2">
           <img src="../assets/images/gallery.webp" alt="" class="p-2 xl:p-0 rounded-lg">
@@ -217,7 +210,7 @@
     </section> -->
 
     <section class="bg-vip-reserve py-16 lg:py-40">
-      <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold text-center mb-5 lg:mb-20">VIP RESERVE</h1>
+      <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold text-center mb-5 lg:mb-20">{{ $t('mp_title4') }}</h1>
       <div class="mx-auto max-w-[1200px]">
         <swiper
           :slidesPerView="1"

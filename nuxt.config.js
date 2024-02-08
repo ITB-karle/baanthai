@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'nuxt-swiper',
     'nuxt-gtag',
     'nuxt3-meta-pixel',
+    '@nuxtjs/i18n',
   ],
   swiper: {
     // Swiper options
@@ -21,6 +22,9 @@ export default defineNuxtConfig({
   ],
   ssr: false,
 
+  i18n: {
+    vueI18n: './i18n.config.js' // if you are using custom path, default 
+  },
   gtag: {
     property: {
       id: 'G-VC837F6PL5', // Replace with your actual Google Analytics Measurement ID

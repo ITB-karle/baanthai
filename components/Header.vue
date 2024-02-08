@@ -24,27 +24,27 @@
         <div class="w-full lg:flex lg:w-auto uppercase items-center text-center menu" id="navbar-default" v-show="isMenuOpen" ref="menu">
           <ul class="font-medium flex flex-col p-4 lg:p-0 xl:mr-5 mt-4 rounded-lg lg:flex-row lg:space-x-6 xl:space-x-8 lg:mt-0">
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >Our Story</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourstory" exact-active-class="active" >{{ $t('header') }}</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/ourfoods" exact-active-class="active">{{ $t('header0') }}</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/gallery" exact-active-class="active">Gallery</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/gallery" exact-active-class="active">{{ $t('header1') }}</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/contact" exact-active-class="active">{{ $t('header2') }}</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/points" exact-active-class="active">Point Check</nuxt-link>
+              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/points" exact-active-class="active">{{ $t('header3') }}</nuxt-link>
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
             <nuxt-link @click="closeMenu('vipreserve')" to="/vipreserve">
-              <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">VIP RESERVATION</button>
+              <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">{{ $t('header4') }}</button>
             </nuxt-link>
             <a href="https://bit.ly/BTwebOO" target="_blank">
-              <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">ONLINE ORDER</button>
+              <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">{{ $t('header5') }}</button>
             </a>
           </div>
         </div>

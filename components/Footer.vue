@@ -9,7 +9,7 @@
           <div>
             <a href="https://weborder.zeoniq.com/one/init-b" target="_blank">
               <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
-                ONLINE ORDER
+                {{ $t('header5') }}
               </button>
             </a>
             
@@ -17,7 +17,7 @@
           <div>
             <nuxt-link to="/vipreserve">
               <button class="bg-lightgold rounded-full py-2 mb-3 min-w-[120px] lg:min-w-[180px]">
-                VIP RESERVATION
+                {{ $t('header4') }}
               </button>
             </nuxt-link>
           </div>
@@ -26,19 +26,19 @@
           <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">Quick Menu</p>
           <ul class="font-thin text-xs lg:text-base mt-4 rounded-lg md:flex-row md:mt-0 md:border-0">
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/ourstory" exact-active-class="active">Our Story</nuxt-link>
+              <nuxt-link class="nav-link" to="/ourstory" exact-active-class="active">{{ $t('header') }}</nuxt-link>
             </li>
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/ourfoods" exact-active-class="active">Our Foods</nuxt-link>
+              <nuxt-link class="nav-link" to="/ourfoods" exact-active-class="active">{{ $t('header0') }}</nuxt-link>
             </li>
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/gallery" exact-active-class="active">Gallery</nuxt-link>
+              <nuxt-link class="nav-link" to="/gallery" exact-active-class="active">{{ $t('header1') }}</nuxt-link>
             </li>
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/contact" exact-active-class="active">Contact Us</nuxt-link>
+              <nuxt-link class="nav-link" to="/contact" exact-active-class="active">{{ $t('header2') }}</nuxt-link>
             </li>
             <li class="mb-3">
-              <nuxt-link class="nav-link" to="/points" exact-active-class="active">Point Check</nuxt-link>
+              <nuxt-link class="nav-link" to="/points" exact-active-class="active">{{ $t('header3') }}</nuxt-link>
             </li>
           </ul>
         </div>
