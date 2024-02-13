@@ -47,6 +47,10 @@
               <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">{{ $t('header5') }}</button>
             </a>
           </div>
+          <select v-model="locale" class="selectbox">
+            <option value="en">English</option>
+            <option value="cn">中文</option>
+          </select>
         </div>
 
         
@@ -55,6 +59,10 @@
     </nav>
   </div>
 </template>
+
+<script setup>
+const { locale } = useI18n()
+</script>
 
 <script>
 // import { onMounted } from 'vue'

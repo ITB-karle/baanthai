@@ -750,3 +750,9 @@ div.eapps-widget {
 .terms ::marker {
   color: black !important;
 }
+
+.selectbox {
+  border-radius: 0px;
+  text-align: center;
+  height: 40px;
+}
