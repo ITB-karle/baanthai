@@ -34,7 +34,7 @@ export default defineNuxtConfig({
   facebook: {
     /* module options */
     track: 'PageView',
-    pixelId: '601615171278946',
+    pixelId: '775690060655691',
     autoPageView: true,
     disabled: false
   },
