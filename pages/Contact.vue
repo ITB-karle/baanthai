@@ -5,8 +5,8 @@
 
   <section class="bg-marblr">
     <div class="container mx-auto">
-      <div class="md:grid md:grid-cols-3 mt-[-50px] font-medium text-sm lg:text-lg">
-        <button @click="setActive('pudu')" class="mb-5 md:mb-0 w-full">
+      <div class="md:grid md:grid-cols-12 mt-[-50px] font-medium text-sm lg:text-lg">
+        <button @click="setActive('pudu')" class="mb-5 md:mb-0 w-full md:col-span-4 md:col-start-3">
           <div 
             class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
             :class="{ 'active-map': map === 'pudu' }"
@@ -30,7 +30,7 @@
             </div>
           </div>
         </button>
-        <button @click="setActive('kuchai')" class="mb-5 md:mb-0 w-full">
+        <button @click="setActive('kuchai')" class="mb-5 md:mb-0 w-full md:col-span-4">
           <div
             class="rounded-lg bg-lightgold text-brown flex flex-col text-center justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
             :class="{ 'active-map': map === 'kuchai' }"
@@ -55,7 +55,7 @@
           </div>
         </button>
         
-        <button @click="setActive('publika')" class="mb-5 md:mb-0 w-full">
+        <!-- <button @click="setActive('publika')" class="mb-5 md:mb-0 w-full">
           <div 
             class="rounded-lg bg-lightgold text-brown text-center flex flex-col justify-center items-center py-7 px-6 lg:px-12 mx-5 md:mx-3 lg:mx-5 hover:bg-brown hover:text-lightgold h-full"
             :class="{ 'active-map': map === 'publika' }"
@@ -78,11 +78,11 @@
               </a>
             </div>
           </div>
-        </button>
+        </button> -->
         
       </div>
       <iframe
-        v-if="map === 'pudu' || map === 'kuchai' || map === 'publika'"
+        v-if="map === 'pudu' || map === 'kuchai'"
         class="mt-10 mb-24 px-2 md:px-5 lg:px-0"
         :src="getMapSrc()"
         width="100%" 

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-brown text-white grow z-50 footer">
     <section class="container mx-auto">
-      <div class="md:grid md:grid-cols-4 mt-16 mb-5 mx-5 md:mx-7 lg:mx-10 border-b border-b-white border-opacity-10">
+      <div class="md:grid md:grid-cols-4 lg:pb-5 mt-16 mb-5 mx-5 md:mx-7 lg:mx-10 border-b border-b-white border-opacity-10">
         <div class="mx-auto text-center text-xs lg:text-base">
           <nuxt-link  to="/">
             <img src="../assets/images/Baan_Thai_Logo.webp" alt="" class="max-w-[250px] w-full lg:w-auto mx-auto mb-3" />
@@ -58,7 +58,7 @@
                 </a>
               </div>
             </div>
-            <div class="text-xs lg:text-base px-1">
+            <!-- <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">Baan Thai@Publika</p>
               <div>11.00am - 9.00pm daily</div>
               <div>018-664 9135</div>
@@ -70,7 +70,7 @@
                   <img src="../assets/images/instagram.webp" alt="" class="invert w-[20px]">
                 </a>
               </div>
-            </div>
+            </div> -->
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine</p>
               <div>1.00pm - 4.30am daily</div>
