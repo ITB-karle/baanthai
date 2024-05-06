@@ -22,7 +22,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/vue-fontawesome": "^3.0.3",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "caniuse-lite": "^1.0.30001599",
     "flowbite": "^1.8.1",
     "nuxt-swiper": "^1.2.2",
     "nuxt3-meta-pixel": "^1.0.9",

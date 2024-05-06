@@ -50,6 +50,7 @@
           <select v-model="locale" class="selectbox">
             <option value="en">English</option>
             <option value="cn">中文</option>
+            <option value="th">แบบไทย</option>
           </select>
         </div>
 

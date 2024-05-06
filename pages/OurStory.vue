@@ -77,7 +77,7 @@
               <hr class="line my-10">
             </div>
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2016</p>
+              <p class="text-2xl font-medium">{{ $t('os_2016') }}</p>
               <p class="text-lightgold font-medium">{{ $t('os_title_2016') }}</p>
               <p class="text-sm">
                 {{ $t('os_content_2016') }}
@@ -87,7 +87,7 @@
 
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2017 - 2019</p>
+              <p class="text-2xl font-medium">{{ $t('os_2017') }}</p>
               <p class="text-lightgold font-medium">{{ $t('os_title_2017') }}</p>
               <p class="text-sm">
                 {{ $t('os_content_2017') }}
@@ -107,7 +107,7 @@
               <hr class="line my-10">
             </div>
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2019 - 2021</p>
+              <p class="text-2xl font-medium">{{ $t('os_2019') }}</p>
               <p class="text-lightgold font-medium">{{ $t('os_title_2019') }}</p>
               <p class="text-sm">
                 {{ $t('os_content_2019') }}
@@ -134,7 +134,7 @@
           </section> -->
           <section class="w-full md:w-1/2 lg:w-2/5 xl:w-1/4 flex-none">
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2022 - 2023</p>
+              <p class="text-2xl font-medium">{{ $t('os_2022') }}</p>
               <p class="text-lightgold font-medium">{{ $t('os_title_2022') }}</p>
               <p class="text-sm">
                 {{ $t('os_content_2022') }}
@@ -154,7 +154,7 @@
               <hr class="line my-10">
             </div>
             <div class="h-[220px] mr-10">
-              <p class="text-2xl font-medium">2023{{ $t('os_ongoing_2023') }}</p>
+              <p class="text-2xl font-medium">{{ $t('os_2023') }}{{ $t('os_ongoing_2023') }}</p>
               <p class="text-lightgold font-medium">{{ $t('os_title_2023') }}</p>
               <p class="text-sm">
                 {{ $t('os_content_2023') }}
