@@ -72,5 +72,17 @@
   "of_menu5_food1": "BANANA FLOWER PRAWN",
   "of_menu5_food2": "STEAM FISH WITH SPICY LIME SAUCE",
   "of_menu5_food3": "RED RUBY",
-  "of_menu5_food4": "MANGO STICKY RICE"
+  "of_menu5_food4": "MANGO STICKY RICE",
+
+  "exploreOurFoods": "EXPLORE OUR FOODS",
+  "exploreNow": "Explore Now",
+  "viewNow": "View Now",
+  "vipRoomType1": "VIP ROOM TYPE",
+  "whatCustomerThinkAboutUs": "WHAT CUSTOMER <br /> THINK ABOUT US",
+  "writeReview": "Write a Review",
+  "quickMenu": "Quick Menu",
+  "quickContact": "Quick Contact",
+  "onlineOrder": "Online Order",
+  "onlineReservation": "Online Reservation",
+  "termsAndConditions": "Terms and Conditions"
 }

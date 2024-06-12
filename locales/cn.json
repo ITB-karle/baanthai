@@ -72,5 +72,17 @@
   "of_menu5_food1": "香蕉花虾",
   "of_menu5_food2": "酸辣蒸鱼",
   "of_menu5_food3": "红宝石",
-  "of_menu5_food4": "芒果糯米饭"
+  "of_menu5_food4": "芒果糯米饭",
+
+  "exploreOurFoods": "EXPLORE OUR FOODS",
+  "exploreNow": "Explore Now",
+  "viewNow": "View Now",
+  "vipRoomType1": "VIP ROOM TYPE",
+  "whatCustomerThinkAboutUs": "WHAT CUSTOMER <br /> THINK ABOUT US",
+  "writeReview": "Write a Review",
+  "quickMenu": "Quick Menu",
+  "quickContact": "Quick Contact",
+  "onlineOrder": "Online Order",
+  "onlineReservation": "Online Reservation",
+  "termsAndConditions": "Terms and Conditions"
 }

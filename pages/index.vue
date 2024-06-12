@@ -104,7 +104,7 @@
     </section>
 
     <section class="bg-gray py-16 lg:py-24">
-      <h1 class="uppercase text-2xl lg:text-5xl text-black font-bold text-center mb-5 lg:mb-12">Explore our foods</h1>
+      <h1 class="uppercase text-2xl lg:text-5xl text-black font-bold text-center mb-5 lg:mb-12">{{ $t('exploreOurFoods') }}</h1>
       <div class="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 container mx-auto px-0 md:px-16 lg:px-0">
         <div class="text-center mx-1 md:mx-3">
           <img src="../assets/images/food.webp" alt="">
@@ -155,7 +155,7 @@
 
       <div class="text-center mt-12 md:mt-8">
         <nuxt-link to="/ourfoods"> 
-          <button class="bg-brown text-white rounded-full px-16 py-1 lg:py-2 text-sm md:text-base lg:text-xl">Explore Now</button>
+          <button class="bg-brown text-white rounded-full px-16 py-1 lg:py-2 text-sm md:text-base lg:text-xl">{{ $t('exploreNow') }}</button>
         </nuxt-link>  
       </div>
     </section>
@@ -183,7 +183,7 @@
 
       <div class="text-center mt-16 lg:mt-12">
         <nuxt-link to="/gallery">
-          <button class="bg-brown text-white rounded-full px-16 py-1 lg:py-2 text-sm md:text-base lg:text-xl">View Now</button>
+          <button class="bg-brown text-white rounded-full px-16 py-1 lg:py-2 text-sm md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
         </nuxt-link>
       </div>
     </section>
@@ -218,9 +218,9 @@
               <img src="../assets/images/type1.webp" alt="" class="px-5">
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
-                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> (VIP ROOM Type 1)</p>
+                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 1)</p>
                   <nuxt-link to="/vipreserve">
-                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">View Now</button>
+                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
               </div>
@@ -231,9 +231,9 @@
               <img src="../assets/images/type2.webp" alt="" class="px-5">
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
-                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> (VIP ROOM Type 2)</p>
+                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 2)</p>
                   <nuxt-link to="/vipreserve">
-                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">View Now</button>
+                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
               </div>
@@ -243,9 +243,9 @@
               <img src="../assets/images/type3.webp" alt="" class="px-5">
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
-                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> (VIP ROOM Type 3)</p>
+                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 3)</p>
                   <nuxt-link to="/vipreserve">
-                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">View Now</button>
+                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
               </div>
@@ -256,9 +256,9 @@
               <img src="../assets/images/type4.webp" alt="" class="px-5">
               <div class="bg-white md:h-3/4 md:w-full lg:w-[95%] my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
-                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> (VIP ROOM Type 4 )</p>
+                  <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 4 )</p>
                   <nuxt-link to="/vipreserve">
-                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">View Now</button>
+                    <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
               </div>
@@ -272,7 +272,7 @@
 
     <section class="bg-marblr py-16 md::pt-36 md:pb-24 px-3 lg:px-0">
       <div class="max-w-[1200px] mx-auto">
-        <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold text-right border-r-8 border-lightgold py-1 lg:py-3 px-7">What Customers <br> Think About Us</h1>
+        <h1 class="uppercase text-2xl lg:text-5xl text-brown font-bold text-right border-r-8 border-lightgold py-1 lg:py-3 px-7" v-html="$t('whatCustomerThinkAboutUs')"></h1>
         <iframe src="https://widget-36e5bf48b8e7465ab734eda0096ff837.elfsig.ht" frameborder="0" width="100%" class="h-[500px] mt-12 lg:mt-16 overflow-hidden" ></iframe>
       </div>
     </section>

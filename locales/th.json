@@ -72,5 +72,17 @@
   "of_menu5_food1": "ยำหัวปปลี",
   "of_menu5_food2": "ปลานึ่งน้ำมะนาว",
   "of_menu5_food3": "ทับทิมกรอบ",
-  "of_menu5_food4": "ข้าวเหนียวมะม่วง"
+  "of_menu5_food4": "ข้าวเหนียวมะม่วง",
+
+  "exploreOurFoods": "สำรวจอาหารของเรา",
+  "exploreNow": "สำรวจตอนนี้",
+  "viewNow": "ดูตอนนี้",
+  "vipRoomType1": "ห้องวีไอพีประเภท",
+  "whatCustomerThinkAboutUs": "ลูกค้าคิดอย่างไรกับเรา",
+  "writeReview": "เขียนรีวิว",
+  "quickMenu": "เมนูด่วน",
+  "quickContact": "ติดต่อด่วน",
+  "onlineOrder": "สั่งออนไลน์",
+  "onlineReservation": "จองออนไลน์",
+  "termsAndConditions": "ข้อกำหนดและเงื่อนไข"
 }

@@ -23,7 +23,7 @@
           </div>
         </div>
         <div class="my-12 md:my-0">
-          <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">Quick Menu</p>
+          <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">{{ $t('quickMenu') }}</p>
           <ul class="font-thin text-xs lg:text-base mt-4 rounded-lg md:flex-row md:mt-0 md:border-0">
             <li class="mb-3">
               <nuxt-link class="nav-link" to="/ourstory" exact-active-class="active">{{ $t('header') }}</nuxt-link>
@@ -43,7 +43,7 @@
           </ul>
         </div>
         <div class="col-span-2">
-          <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">Quick contact</p>
+          <p class="text-base lg:text-lg font-normal mb-4 lg:mb-6">{{ $t('quickContact') }}</p>
           <div class="grid grid-cols-2">
             <div class="text-xs lg:text-base">
               <p class="text-yellow font-medium">Baan Thai@Pudu Ulu</p>
@@ -93,13 +93,13 @@
       <div class="lg:mx-52 text-xs md:text-sm lg:text-base text-center">
         <ul class="font-thin mt-4 rounded-lg md:mt-0 flex justify-center">
           <li class="border-r px-2 md:px-16">
-            <nuxt-link class="nav-link" to="https://bit.ly/BTwebOO" exact-active-class="active" target="_blank">Online Order</nuxt-link>
+            <nuxt-link class="nav-link" to="https://bit.ly/BTwebOO" exact-active-class="active" target="_blank">{{ $t('onlineOrder') }}</nuxt-link>
           </li>
           <li class="border-r px-2 md:px-16">
-            <nuxt-link class="nav-link" to="/vipreserve" exact-active-class="active">Online Reservation</nuxt-link>
+            <nuxt-link class="nav-link" to="/vipreserve" exact-active-class="active">{{ $t('onlineReservation') }}</nuxt-link>
           </li>
           <li class="px-2 md:px-16">
-            <nuxt-link class="nav-link" to="/terms" exact-active-class="active">Terms & Conditions</nuxt-link>
+            <nuxt-link class="nav-link" to="/terms" exact-active-class="active">{{ $t('termsAndConditions') }}</nuxt-link>
           </li>
           <!-- <li class="px-2 md:px-16">
             <nuxt-link class="nav-link" to="/" exact-active-class="active">Delivery Policy</nuxt-link>
