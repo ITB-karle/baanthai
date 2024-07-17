@@ -24,7 +24,7 @@
               <a href="https://www.facebook.com/BaanThaiRestaurantCheras/" target="_blank">
                 <font-awesome-icon :icon="['fab', 'facebook-f']" class="w-[15px]" />
               </a>
-              <a href="https://www.instagram.com/baanthai_kl/" target="_blank">
+              <a href="https://www.instagram.com/baanthai_pudu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
                 <font-awesome-icon :icon="['fab', 'instagram']" class="w-[30px]" />
               </a>
             </div>
