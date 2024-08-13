@@ -219,7 +219,7 @@
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
                   <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 1)</p>
-                  <nuxt-link to="/vipreserve">
+                  <nuxt-link to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12">
                     <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
@@ -232,7 +232,7 @@
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
                   <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 2)</p>
-                  <nuxt-link to="/vipreserve">
+                  <nuxt-link to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12">
                     <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
@@ -244,7 +244,7 @@
               <div class="bg-white md:h-3/4 md:w-full my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
                   <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 3)</p>
-                  <nuxt-link to="/vipreserve">
+                  <nuxt-link to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12">
                     <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>
@@ -257,7 +257,7 @@
               <div class="bg-white md:h-3/4 md:w-full lg:w-[95%] my-auto md:ml-[-10%] flex flex-col items-center justify-center lg:text-left mx-8 md:mx-0">
                 <div class="my-5 md:my-0">
                   <p class="text-lg lg:text-2xl font-medium">Baan Thai 2 Seafood & Thai Cuisine<br> ({{ $t('vipRoomType') }} 4 )</p>
-                  <nuxt-link to="/vipreserve">
+                  <nuxt-link to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12">
                     <button class="bg-brown text-white rounded-full px-20 py-1 lg:py-2 mt-12 text-xs md:text-base lg:text-xl">{{ $t('viewNow') }}</button>
                   </nuxt-link>
                 </div>

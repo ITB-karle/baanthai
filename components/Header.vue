@@ -40,9 +40,12 @@
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
-            <nuxt-link @click="closeMenu('vipreserve')" to="/vipreserve">
+            <!-- <nuxt-link @click="closeMenu('vipreserve')" to="/vipreserve">
               <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">{{ $t('header4') }}</button>
-            </nuxt-link>
+            </nuxt-link> -->
+            <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" target="_blank">
+              <button class="rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2 my-3 lg:my-0">{{ $t('header4') }}</button>
+            </a>
             <a href="https://bit.ly/BTwebOO" target="_blank">
               <button class="hidden lg:inline-flex rounded-full text-white bg-lightgold px-4 xl:px-6 py-2 mx-2">{{ $t('header5') }}</button>
             </a>

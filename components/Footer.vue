@@ -96,7 +96,7 @@
             <nuxt-link class="nav-link" to="https://bit.ly/BTwebOO" exact-active-class="active" target="_blank">{{ $t('onlineOrder') }}</nuxt-link>
           </li>
           <li class="border-r px-2 md:px-16">
-            <nuxt-link class="nav-link" to="/vipreserve" exact-active-class="active">{{ $t('onlineReservation') }}</nuxt-link>
+            <nuxt-link class="nav-link" to="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" exact-active-class="active">{{ $t('onlineReservation') }}</nuxt-link>
           </li>
           <li class="px-2 md:px-16">
             <nuxt-link class="nav-link" to="/terms" exact-active-class="active">{{ $t('termsAndConditions') }}</nuxt-link>
