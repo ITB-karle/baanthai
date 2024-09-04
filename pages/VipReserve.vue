@@ -40,7 +40,7 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="https://bit.ly/bttawebsitetype01" target="_blank">
+              <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" target="_blank">
                 <button class="bg-brown rounded-full lg:text-lg text-white my-5 lg:my-10 py-2 px-12 lg:px-28">
                   Book Now
                 </button>
@@ -66,7 +66,7 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="https://bit.ly/bttawebsitetype02" target="_blank">
+              <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" target="_blank">
                 <button class="bg-brown rounded-full lg:text-lg text-white my-5 lg:my-10 py-2 px-12 lg:px-28">
                   Book Now
                 </button>
@@ -92,7 +92,7 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="https://bit.ly/bttawebsitetype03" target="_blank">
+              <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" target="_blank">
                 <button class="bg-brown rounded-full lg:text-lg text-white my-5 lg:my-10 py-2 px-12 lg:px-28">
                   Book Now
                 </button>
@@ -119,7 +119,7 @@
               </div>
             </div>
             <div class="text-center">
-              <a href="https://bit.ly/bttawebsitetype04" target="_blank">
+              <a href="https://letsumai.com/widget/baan-thai-2?party_size=2&date=2024-08-12" target="_blank">
                 <button class="bg-brown rounded-full lg:text-lg text-white my-5 lg:my-10 py-2 px-12 lg:px-28">
                   Book Now
                 </button>
