@@ -17,8 +17,8 @@
         class="mySwiper"
       >
         <swiper-slide>
-          <!-- <img src="../assets/images/HomeBanner_1.webp" alt="" class="w-full"> -->
-          <img src="../assets/images/BT-CNY-HOMEPAGE-01.webp" alt="" class="w-full">
+          <img src="../assets/images/HomeBanner_1.webp" alt="" class="w-full">
+          <!-- <img src="../assets/images/BT-CNY-HOMEPAGE-01.webp" alt="" class="w-full"> -->
           <div class="swiper-button text-xs md:text-xl lg:text-3xl font-medium text-white text-center mx-auto">
             <!-- <a href="https://weborder.zeoniq.com/one/init-b">
               <button class="block bg-lightgold py-1 lg:py-2 px-3 lg:px-8 rounded-full mb-2 lg:mb-8 shadow-lg">Order Now</button>
@@ -29,8 +29,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <!-- <img src="../assets/images/HomeBanner_2.webp" alt="" class="w-full"> -->
-          <img src="../assets/images/BT-CNY-HOMEPAGE-02.webp" alt="" class="w-full">
+          <img src="../assets/images/HomeBanner_2.webp" alt="" class="w-full">
+          <!-- <img src="../assets/images/BT-CNY-HOMEPAGE-02.webp" alt="" class="w-full"> -->
           <div class="swiper-button text-xs md:text-xl lg:text-3xl font-medium text-white text-center mx-auto">
             <!-- <a href="https://weborder.zeoniq.com/one/init-b">
               <button class="block bg-lightgold py-1 lg:py-2 px-3 lg:px-8 rounded-full mb-2 lg:mb-8 shadow-lg">Order Now</button>
