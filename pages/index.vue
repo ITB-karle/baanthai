@@ -7,7 +7,7 @@
         :centeredSlides="true"
         :loop="true"
         :autoplay="{
-          delay: 30000,
+          delay: 10000,
           disableOnInteraction: false,
         }"
         :pagination="{
@@ -17,7 +17,8 @@
         class="mySwiper"
       >
         <swiper-slide>
-          <img src="../assets/images/HomeBanner_1.webp" alt="" class="w-full">
+          <!-- <img src="../assets/images/HomeBanner_1.webp" alt="" class="w-full"> -->
+          <img src="../assets/images/MIX&MATCH-SLIDER-01.webp" alt="" class="w-full">
           <!-- <img src="../assets/images/BT-CNY-HOMEPAGE-01.webp" alt="" class="w-full"> -->
           <div class="swiper-button text-xs md:text-xl lg:text-3xl font-medium text-white text-center mx-auto">
             <!-- <a href="https://weborder.zeoniq.com/one/init-b">
@@ -29,7 +30,8 @@
           </div>
         </swiper-slide>
         <swiper-slide>
-          <img src="../assets/images/HomeBanner_2.webp" alt="" class="w-full">
+          <!-- <img src="../assets/images/HomeBanner_2.webp" alt="" class="w-full"> -->
+          <img src="../assets/images/MIX&MATCH-SLIDER-02.webp" alt="" class="w-full">
           <!-- <img src="../assets/images/BT-CNY-HOMEPAGE-02.webp" alt="" class="w-full"> -->
           <div class="swiper-button text-xs md:text-xl lg:text-3xl font-medium text-white text-center mx-auto">
             <!-- <a href="https://weborder.zeoniq.com/one/init-b">
