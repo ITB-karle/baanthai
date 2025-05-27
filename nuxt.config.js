@@ -36,12 +36,19 @@ export default defineNuxtConfig({
     track: 'PageView',
     pixelId: '775690060655691',
     autoPageView: true,
-    disabled: false
+    disabled: false,
+    // debug: process.env.NODE_ENV !== 'production',
+    // dev: process.env.NODE_ENV !== 'production',
+    version: '2.0'
   },
 
   // Router configuration for setting base URL
   router: {
     base: '/' // Replace with your actual base URL if applicable
+  },
+
+  build: {
+    transpile: ['nuxt3-meta-pixel']
   }
 })
 
