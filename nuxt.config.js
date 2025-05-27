@@ -17,11 +17,11 @@ export default defineNuxtConfig({
     // modules: ['navigation', 'pagination'], // all modules are imported by default
   },
   css: ['@/styles/main.css', '@fortawesome/fontawesome-svg-core/styles.css'],
+  spaLoadingTemplate: false,
   plugins: [
     { src: '~/plugins/fontawesome', ssr: false },
   ],
   ssr: false,
-
   i18n: {
     vueI18n: './i18n.config.js' // if you are using custom path, default 
   },

@@ -47,7 +47,7 @@
             {{ $t('of_menu_food4' )}}
           </li>
         </ul>
-        <a href="https://bit.ly/BTwebOO">
+        <a href="https://bit.ly/BTwebOO" @click.once="handleOnlineOrder">
           <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a>
       </div>
@@ -96,7 +96,7 @@
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'bpl' }" @mouseover="hoveredItem = 'bpl'" @mouseout="hoveredItem = ''">
             {{ $t('of_menu2_food4' )}}</li>
         </ul>
-        <a href="https://bit.ly/BTwebOO">
+        <a href="https://bit.ly/BTwebOO" @click.once="handleOnlineOrder">
           <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a>
       </div>
@@ -145,7 +145,7 @@
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'gpn' }" @mouseover="hoveredItem = 'gpn'" @mouseout="hoveredItem = ''">
             {{ $t('of_menu3_food4' )}}</li>
         </ul>
-        <a href="https://bit.ly/BTwebOO">
+        <a href="https://bit.ly/BTwebOO" @click.once="handleOnlineOrder">
           <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a>
       </div>
@@ -184,7 +184,7 @@
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'dfcwg' }" @mouseover="hoveredItem = 'dfcwg'" @mouseout="hoveredItem = ''">
             {{ $t('of_menu4_food3' )}}</li>
         </ul>
-        <a href="https://bit.ly/BTwebOO">
+        <a href="https://bit.ly/BTwebOO" @click.once="handleOnlineOrder">
           <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a> 
       </div>
@@ -233,7 +233,7 @@
           <li class="mb-1 sm:mb-3 lg:mb-4 xl:mb-5" :class="{ 'text-lightgold': hoveredItem === 'msr' }" @mouseover="hoveredItem = 'msr'" @mouseout="hoveredItem = ''">
             {{ $t('of_menu5_food4' )}}</li>
         </ul>
-        <a href="https://bit.ly/BTwebOO">
+        <a href="https://bit.ly/BTwebOO" @click.once="handleOnlineOrder">
           <button class="w-full bg-lightgold rounded-full uppercase py-1 md:py-2">Online Order</button>
         </a>
       </div>
@@ -247,8 +247,6 @@
 </template>
 
 <script>
-
-
 export default {
   data() {
     return {
@@ -256,4 +254,16 @@ export default {
     }
   },
 };
+</script>
+
+<script setup>
+const { trackButtonClick } = useButtonTracking()
+
+const handleOnlineOrder = () => {
+  trackButtonClick('online_order_button', {
+    destination_url: 'https://bit.ly/BTwebOO',
+    link_type: 'external',
+    action: 'redirect'
+  })
+}
 </script>
