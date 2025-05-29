@@ -1,59 +1,62 @@
-// composables/useButtonTracking.js
+// composables/useButtonTracking.js - Same as before
 export const useButtonTracking = () => {
   const { $fb } = useNuxtApp()
   const isDev = process.dev
+  const route = useRoute()
 
-  const trackButtonClick = (buttonName, additionalData = {}) => {
-    const eventData = {
-      button_name: buttonName,
-      page_path: useRoute().path,
+  const getFacebookIds = () => {
+    const fbp = useCookie('_fbp').value
+    const fbc = useCookie('_fbc').value
+    return { fbp, fbc }
+  }
+
+  const trackEvent = async (eventName, eventData = {}) => {
+    const { fbp, fbc } = getFacebookIds()
+    
+    const baseEventData = {
+      page_path: route.path,
       timestamp: Date.now(),
-      ...additionalData
+      ...eventData
     }
 
-    if (isDev) {
-      console.group('🎯 Facebook Pixel Tracking')
-      console.log('Event:', 'ButtonClick')
-      console.log('Button Name:', buttonName)
-      console.log('Data:', eventData)
-      console.log('FB Object:', $fb)
-      console.groupEnd()
-    }
-
+    // Client-side Pixel tracking
     if ($fb) {
       try {
-        $fb.track('ButtonClick', eventData)
-        if (isDev) console.log('✅ Tracking sent successfully')
+        $fb.track(eventName, baseEventData)
+        if (isDev) console.log('✅ Pixel tracking sent')
       } catch (error) {
-        console.error('❌ Tracking failed:', error)
+        console.error('❌ Pixel tracking failed:', error)
       }
-    } else {
-      console.warn('⚠️ Facebook Pixel not loaded')
     }
-  }
 
-  const trackPageView = (pageName, additionalData = {}) => {
-    if ($fb) {
-      $fb.track('ViewContent', {
-        content_name: pageName,
-        content_type: 'page',
-        page_path: useRoute().path,
-        ...additionalData
+    // Server-side Conversions API
+    try {
+      const response = await $fetch('https://baanthaimalaysia.com/facebook-conversion.php', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: {
+          eventName,
+          eventData: baseEventData,
+          pageUrl: window.location.href,
+          fbp,
+          fbc
+        }
       })
+      
+      if (isDev) console.log('✅ Conversions API sent:', response)
+    } catch (error) {
+      console.error('❌ Conversions API failed:', error)
     }
   }
 
-  const trackLocationSelection = (locationName, additionalData = {}) => {
-    if ($fb) {
-      $fb.track('ButtonClick', {
-        button_name: 'location_selection_button',
-        location_name: locationName,
-        page_path: useRoute().path,
-        timestamp: Date.now(),
-        ...additionalData
-      })
-    }
+  const trackButtonClick = async (buttonName, additionalData = {}) => {
+    await trackEvent('ButtonClick', {
+      button_name: buttonName,
+      ...additionalData
+    })
   }
 
-  return { trackButtonClick, trackPageView, trackLocationSelection }
+  return { trackButtonClick }
 }
