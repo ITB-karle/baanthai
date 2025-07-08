@@ -47,7 +47,7 @@
           <div class="grid grid-cols-2">
             <div class="text-xs lg:text-base">
               <p class="text-yellow font-medium">Baan Thai@Pudu Ulu</p>
-              <div>11.00am - 6.00am daily</div>
+              <div>12.00pm - 4.30am daily</div>
               <div>018-911 6315</div>
               <div class="flex mt-2 mb-5 px-1">
                 <a href="https://www.facebook.com/BaanThaiRestaurantCheras/" target="_blank">
@@ -73,7 +73,7 @@
             </div> -->
             <div class="text-xs lg:text-base px-1">
               <p class="text-yellow font-medium">Baan Thai 2 Seafood & Thai Cuisine</p>
-              <div>12.00pm - 4.30am daily</div>
+              <div>12.30pm - 2.30am daily</div>
               <div>018-315 3323</div>
               <div class="flex mt-2 mb-5">
                 <a href="https://www.facebook.com/baanthai2thaicuisinekuchailama" target="_blank">

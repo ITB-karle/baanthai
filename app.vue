@@ -1,8 +1,8 @@
 <!-- app.vue -->
 <template>
   <NuxtLayout>
-    <AppLoading v-if="isLoading" />
-    <NuxtPage v-else />
+    <!-- <AppLoading v-if="isLoading" /> -->
+    <NuxtPage />
   </NuxtLayout>
 </template>
 
