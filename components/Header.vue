@@ -36,7 +36,9 @@
               <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/contact" exact-active-class="active">{{ $t('header2') }}</nuxt-link>
             </li>
             <li class="my-2 lg:my-0">
-              <nuxt-link @click="closeMenu()" class="nav-link text-lightgold" to="/points" exact-active-class="active">{{ $t('header3') }}</nuxt-link>
+              <a href="https://app.simpleloyalty.com/baan-thai-2" class="nav-link text-lightgold" @click.once="handleClickPoint" target="_blank">
+                {{ $t('header3') }}
+              </a>
             </li>
           </ul>
           <div class="text-center text-xs md:text-base">
@@ -67,6 +69,14 @@
 <script setup>
 const { locale } = useI18n()
 const { trackButtonClick } = useButtonTracking()
+
+const handleClickPoint = () => {
+  trackButtonClick('points_button', {
+    destination_url: 'https://app.simpleloyalty.com/baan-thai-2',
+    link_type: 'external',
+    action: 'redirect'
+  })
+}
 
 const handleVipReservation = () => {
   trackButtonClick('vip_reservation_button', {
